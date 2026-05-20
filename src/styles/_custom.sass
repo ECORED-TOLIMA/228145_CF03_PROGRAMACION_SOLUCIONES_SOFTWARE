@@ -200,6 +200,10 @@
   background-color: #0d0d2b
 .bgf10
   background-color: #ffffff // El fondo blanco nítido
+
+.bgf11
+  background-color: #68EAE0
+
 .cajon.color-primario
   background-color: #C0F6F2
 
@@ -369,8 +373,8 @@
 
 .bottomCircle
   img
-    max-width: 40%
-    margin: 11.5% 30%
+    max-width: 35%
+    margin: 8.5% 32.5%
 
   position: relative
   & > *
@@ -381,8 +385,8 @@
     top: 50%
     left: 50%
     transform: translate(-50%,-50%)
-    width: 170px
-    height: 170px
+    width: 130px
+    height: 130px
     background-color: #AE0000
     border-radius: 999px
   @media (max-width: 1000px)
@@ -396,7 +400,7 @@
   & > *
     position: relative
   h5 
-    color: #7F4FC7
+    color: black
   p 
     margin-bottom: 0
   &::before  
@@ -406,14 +410,14 @@
     right: 0
     width: calc( 100% - 60px)
     height: 100%
-    background-color: #C5E5FE
+    background-color: #C9E8F7
 
   @media (max-width: 1000px)
     padding-right: 2rem
 
 .crd--first, .crd--last
   &::before 
-    background-color: #DDEDF8 !important
+    background-color: #C0F6F2 !important
 
 .crd--first
   &::before 
@@ -481,3 +485,45 @@
 
 table th, table td
   padding: 13px 20px
+
+.tabs-c__tab
+  background-color: #9C2424
+  color: white
+
+.tabs-c__tab--active
+  background-color: #fff
+  color: black
+.tabs-c
+  background-color: #CFE8FF
+
+.acordion__accion__btn--a, .acordion__accion__btn--b
+  background-color: #9C2424
+  color: white
+  border: solid 1px #9C2424
+///////// T13 - Tarj1 --------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+      background-color: #68EAE0
+    h5
+      color: black !important
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #9C2424
+    h5
+      color: white !important
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em

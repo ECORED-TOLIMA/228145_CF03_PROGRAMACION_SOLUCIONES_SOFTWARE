@@ -626,7 +626,21 @@
                         p.text-white.ms-3.mb-1
                       h4.text-white }
     
-    p En este modelo, la información se almacena de forma flexible sin requerir una estructura fija para todos los registros.
+    p.mb-4 En este modelo, la información se almacena de forma flexible sin requerir una estructura fija para todos los registros.
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-10
+        .tarjeta.bgf8.p-3(data-aos="zoom-in")
+          .row.justify-content-between.align-items-center
+            .col-sm-auto.d-none.d-lg-block
+              figure
+                img(src='@/assets/curso/temas/tema1/img47.svg', width='180', alt='Texto que describa la imagen')
+            .col.mb-3.mb-sm-0
+              p.mb-0 Para complementar la importancia de NoSQL, se recomienda acceder al siguiente video: 
+              p.text-bold Bases de datos NoSQL
+            .col-sm-auto
+              a.boton.color-acento-botones(:href="('https://www.youtube.com/watch?v=M-Iw1awJ1NU')" target="_blank")
+                span Abrir video
+                i.fas.fa-file-video
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
       h5 c) Bases de datos NewSQL
