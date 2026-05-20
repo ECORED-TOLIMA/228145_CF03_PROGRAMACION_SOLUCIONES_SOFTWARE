@@ -135,7 +135,7 @@
     .p-4.bgf5.mb-4
       p.mb-0 En las bases de datos relacionales, las restricciones son reglas que se establecen para controlar los valores que pueden almacenarse en las tablas. Estas reglas permiten garantizar que la información registrada cumpla determinadas condiciones y que los datos mantengan coherencia dentro del sistema.
     p Las restricciones contribuyen a mantener la consistencia de los datos, es decir, aseguran que la información almacenada sea válida, completa y acorde con las reglas definidas para la base de datos. De esta manera, se evitan errores como registros incompletos, duplicados o valores que no corresponden con la estructura del sistema.
-    p Entre las restricciones más comunes se encuentran las siguientes:
+    p.mb-0 Entre las restricciones más comunes se encuentran las siguientes:
     .row.justify-content-center.BG04.p-5
       .col-lg-4.d-none.d-lg-block
         figure(data-aos="zoom-in")
@@ -147,32 +147,32 @@
               .col-5
                 img(src="@/assets/curso/temas/tema3/img13.svg", alt="alt").img100.m-auto
             h5.text-center #[b NOT NULL]
-            p.text-center.mb-0 establece que un atributo no puede quedar vacío, por lo que siempre debe contener un valor.
+            p.text-center.mb-0 Establece que un atributo no puede quedar vacío, por lo que siempre debe contener un valor.
           .tarjeta.tarjeta--slyder.p-4
             .row.justify-content-center.mb-3
               .col-5
                 img(src="@/assets/curso/temas/tema3/img14.svg", alt="alt").img100.m-auto
             h5.text-center #[b UNIQUE]
-            p.text-center.mb-0 garantiza que los valores de una columna no se repitan dentro de la tabla.
+            p.text-center.mb-0 Garantiza que los valores de una columna no se repitan dentro de la tabla.
           .tarjeta.tarjeta--slyder.p-4
             .row.justify-content-center.mb-3
               .col-5
                 img(src="@/assets/curso/temas/tema3/img15.svg", alt="alt").img100.m-auto
             h5.text-center #[b PRIMARY KEY (PK)]
-            p.text-center.mb-0 identifica de manera única cada registro de una tabla y no permite valores nulos ni duplicados.
+            p.text-center.mb-0 Identifica de manera única cada registro de una tabla y no permite valores nulos ni duplicados.
           .tarjeta.tarjeta--slyder.p-4
             .row.justify-content-center.mb-3
               .col-5
                 img(src="@/assets/curso/temas/tema3/img16.svg", alt="alt").img100.m-auto
             h5.text-center #[b FOREIGN KEY (FK)]
-            p.text-center.mb-0 asegura la relación entre tablas al exigir que los valores correspondan a registros existentes en otra tabla.
+            p.text-center.mb-0 Asegura la relación entre tablas al exigir que los valores correspondan a registros existentes en otra tabla.
           .tarjeta.tarjeta--slyder.p-4
             .row.justify-content-center.mb-3
               .col-5
                 img(src="@/assets/curso/temas/tema3/img16.svg", alt="alt").img100.m-auto
             h5.text-center #[b CHECK]
             p.text-center.mb-0 permite definir una condición que los valores deben cumplir para poder almacenarse en la base de datos.
-    p La aplicación de estas restricciones fortalece la calidad de la información y facilita la administración de los datos dentro de los sistemas de información. Además, permite mantener la coherencia entre las diferentes tablas y garantizar que los registros cumplan con las reglas definidas en el diseño de la base de datos.          
+    p.mb-0 La aplicación de estas restricciones fortalece la calidad de la información y facilita la administración de los datos dentro de los sistemas de información. Además, permite mantener la coherencia entre las diferentes tablas y garantizar que los registros cumplan con las reglas definidas en el diseño de la base de datos.          
 </template>
 
 <script>
