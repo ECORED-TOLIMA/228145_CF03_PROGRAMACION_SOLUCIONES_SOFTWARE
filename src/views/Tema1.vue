@@ -19,7 +19,7 @@
             img(src='@/assets/curso/temas/tema1/img2.svg' alt='AvatarTop')
           .tarjeta.bgf1
             .p-4
-              p.mb-0 En la actualidad, las bases de datos evolucionan constantemente para responder a las necesidades de procesamiento, almacenamiento y análisis de información generadas por aplicaciones web, sistemas empresariales, dispositivos móviles, servicios en la nube y entornos distribuidos. Por esta razón, existen diferentes modelos y tecnologías orientadas a administrar datos estructurados, semiestructurados y desestructurados, adaptándose a diversos requerimientos de escalabilidad, disponibilidad y rendimiento.
+              p.mb-0 En la actualidad, las bases de datos evolucionan constantemente para responder a las necesidades de procesamiento, almacenamiento y análisis de información generadas por aplicaciones #[i web], sistemas empresariales, dispositivos móviles, servicios en la nube y entornos distribuidos. Por esta razón, existen diferentes modelos y tecnologías orientadas a administrar datos estructurados, semiestructurados y desestructurados, adaptándose a diversos requerimientos de escalabilidad, disponibilidad y rendimiento.
     Separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.1 Conceptos básicos y características de las bases de datos
@@ -128,7 +128,7 @@
               figure
                 img(src='@/assets/curso/temas/tema1/img16.svg', style="width: 120px", alt='AvatarTop')
             .col-lg-10
-              p.mb-0 Estas características convierten a las bases de datos en herramientas fundamentales para el almacenamiento y procesamiento de información en los sistemas de software actuales.
+              p.mb-0 Estas características convierten a las bases de datos en herramientas fundamentales para el almacenamiento y procesamiento de información en los sistemas de #[i software] actuales.
 
     Separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
@@ -146,8 +146,8 @@
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-7
           .p-4.bgf4.mb-3
-            p.mb-0 En la década de 1970, Edgar F. Codd propone el modelo relacional, el cual transforma la administración de datos mediante el uso de tablas relacionadas y el lenguaje SQL. Este enfoque facilita la consulta, manipulación y mantenimiento de la información, convirtiéndose en uno de los modelos más utilizados en sistemas empresariales y aplicaciones de software.
-          p Con el crecimiento de Internet, las aplicaciones web y el manejo masivo de datos, aparecen nuevos modelos de almacenamiento como las bases de datos NoSQL, orientadas al procesamiento de datos semiestructurados y desestructurados. Estas tecnologías priorizan la escalabilidad, el rendimiento y la distribución de datos en múltiples servidores.
+            p.mb-0 En la década de 1970, Edgar F. Codd propone el modelo relacional, el cual transforma la administración de datos mediante el uso de tablas relacionadas y el lenguaje SQL. Este enfoque facilita la consulta, manipulación y mantenimiento de la información, convirtiéndose en uno de los modelos más utilizados en sistemas empresariales y aplicaciones de #[i software].
+          p Con el crecimiento de Internet, las aplicaciones #[i web] y el manejo masivo de datos, aparecen nuevos modelos de almacenamiento como las bases de datos NoSQL, orientadas al procesamiento de datos semiestructurados y desestructurados. Estas tecnologías priorizan la escalabilidad, el rendimiento y la distribución de datos en múltiples servidores.
           p.mb-0 Más recientemente surgen las bases de datos NewSQL, que combinan características de escalabilidad propias de NoSQL con las propiedades transaccionales y de consistencia de las bases de datos relacionales tradicionales.
         .col-lg-4
           figure
@@ -297,7 +297,7 @@
       .row(titulo="Datos semiestructurados")
         .col-lg    
           p Presentan una organización parcial, es decir, no siguen un esquema rígido como las bases de datos relacionales, pero incorporan etiquetas o marcas que permiten identificar y organizar la información.
-          p Este tipo de datos es común en aplicaciones web, servicios en la nube e intercambio de información entre sistemas.
+          p Este tipo de datos es común en aplicaciones #[i web], servicios en la nube e intercambio de información entre sistemas.
           .row.mb-4
             .col-lg-6
               .tarjeta.bgf3.p-4
@@ -417,7 +417,7 @@
                   td Sin estructura definida.
                   td Videos e imágenes.
                   td Big Data y almacenamiento distribuido.
-    p.mb-0 La identificación de estos modelos de datos permite seleccionar las tecnologías y herramientas más adecuadas para almacenar, administrar y procesar información según las necesidades de cada sistema de software.
+    p.mb-0 La identificación de estos modelos de datos permite seleccionar las tecnologías y herramientas más adecuadas para almacenar, administrar y procesar información según las necesidades de cada sistema de #[i software].
     Separador
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.4 Bases de datos relacionales, NoSQL y NewSQL
@@ -427,7 +427,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img30.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p Cada uno de estos enfoques presenta características particulares que permiten su implementación en aplicaciones empresariales, sistemas distribuidos, plataformas web y soluciones orientadas al análisis de grandes volúmenes de datos.
+        p Cada uno de estos enfoques presenta características particulares que permiten su implementación en aplicaciones empresariales, sistemas distribuidos, plataformas #[i web] y soluciones orientadas al análisis de grandes volúmenes de datos.
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
       h5 a) Bases de datos relacionales
@@ -539,7 +539,7 @@
             .row.justify-content-center.mb-3
               .col-8
                 img(src="@/assets/curso/temas/tema1/img38.svg", alt="alt").img100.m-auto
-            p.text-center.mb-0 Son utilizadas en aplicaciones web, redes sociales y Big Data.
+            p.text-center.mb-0 Son utilizadas en aplicaciones #[i web], redes sociales y Big Data.
           .tarjeta.tarjeta--slyder.p-4
             .row.justify-content-center.mb-3
               .col-8
@@ -720,9 +720,9 @@
                 tr
                   td Uso frecuente.
                   td Sistemas empresariales.
-                  td Big Data y aplicaciones web.
+                  td Big Data y aplicaciones #[i web].
                   td Sistemas distribuidos modernos.
-    p.mb-0 La selección de un modelo de base de datos depende de las necesidades del sistema, el tipo de información administrada y los requerimientos de disponibilidad, escalabilidad y rendimiento de las aplicaciones de software.
+    p.mb-0 La selección de un modelo de base de datos depende de las necesidades del sistema, el tipo de información administrada y los requerimientos de disponibilidad, escalabilidad y rendimiento de las aplicaciones de #[i software].
 </template>
 
 <script>
