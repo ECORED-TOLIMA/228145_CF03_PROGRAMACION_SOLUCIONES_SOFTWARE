@@ -29,7 +29,7 @@
           p.mb-0 El término NoSQL significa “Not Only SQL” (no solo SQL), lo que indica que estos sistemas no buscan reemplazar completamente a las bases de datos relacionales, sino ofrecer alternativas que se adapten mejor a determinados tipos de aplicaciones, especialmente aquellas que requieren alto rendimiento, distribución de datos y capacidad de escalar en múltiples servidores.
     p Las bases de datos NoSQL se clasifican principalmente en los siguientes tipos:
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-4
+      .col-lg-4.col-8.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema7/img3.png', alt='Texto que describa la imagen')
       .col-lg-8
@@ -107,7 +107,7 @@
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mb-4
       .row(titulo="Consultas de datos")
         .col-lg    
-          p.mb-4 permiten recuperar documentos o registros almacenados dentro de una colección. Por ejemplo, en una base de datos que almacena información de estudiantes, se puede consultar toda la colección de estudiantes para visualizar los registros existentes. Por ejemplo:
+          p.mb-4 Permiten recuperar documentos o registros almacenados dentro de una colección. Por ejemplo, en una base de datos que almacena información de estudiantes, se puede consultar toda la colección de estudiantes para visualizar los registros existentes. Por ejemplo:
           
           .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-4
                 .px-3.py-2(style="background-color: #311a6a; display: flex; align-items: center;")
@@ -122,7 +122,7 @@
           p.mb-0 En este caso, la información posee organización mediante etiquetas, pero no requiere una estructura fija en todos los registros.              
       .row(titulo="Filtrado de información")
         .col-lg    
-          p.mb-4 permite seleccionar únicamente los registros que cumplen ciertas condiciones dentro de la consulta. Esto facilita encontrar datos específicos dentro de grandes volúmenes de información. Por ejemplo:
+          p.mb-4 Permite seleccionar únicamente los registros que cumplen ciertas condiciones dentro de la consulta. Esto facilita encontrar datos específicos dentro de grandes volúmenes de información. Por ejemplo:
           
           .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-4
                 .px-3.py-2(style="background-color: #311a6a; display: flex; align-items: center;")
@@ -137,7 +137,7 @@
           p.mb-0 Esta consulta devuelve los estudiantes cuya edad es igual a 20.
       .row(titulo="Agregación de datos")
         .col-lg    
-          p.mb-4 permite realizar operaciones de cálculo o agrupación sobre un conjunto de datos, como contar registros, calcular promedios o agrupar información según determinados atributos. Por ejemplo:
+          p.mb-4 Permite realizar operaciones de cálculo o agrupación sobre un conjunto de datos, como contar registros, calcular promedios o agrupar información según determinados atributos. Por ejemplo:
           
           .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-4
                 .px-3.py-2(style="background-color: #311a6a; display: flex; align-items: center;")
@@ -205,15 +205,15 @@
       .col-lg-8
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Identificar el tipo de aplicación")
-            p se analiza si el sistema requiere mayor consistencia de los datos o mayor disponibilidad del servicio
+            p Se analiza si el sistema requiere mayor consistencia de los datos o mayor disponibilidad del servicio
           .row(titulo="Evaluar los posibles fallos de red")
-            p en los sistemas distribuidos es común que existan interrupciones en la comunicación entre nodos, por lo que la tolerancia a particiones suele ser una propiedad necesaria
+            p En los sistemas distribuidos es común que existan interrupciones en la comunicación entre nodos, por lo que la tolerancia a particiones suele ser una propiedad necesaria
           .row(titulo="Definir las prioridades del sistema")
-            p dependiendo del tipo de aplicación, se priorizan dos de las tres propiedades del teorema CAP. Entre ella se encuentran:
+            p Dependiendo del tipo de aplicación, se priorizan dos de las tres propiedades del teorema CAP. Entre ella se encuentran:
             p ° Consistencia y tolerancia a particiones (CP)
             p ° Disponibilidad y tolerancia a particiones (AP)
           .row(titulo="Seleccionar la tecnología adecuada")
-            p a partir de estas decisiones se eligen las bases de datos o arquitecturas que mejor se adapten a los requerimientos del sistema
+            p A partir de estas decisiones se eligen las bases de datos o arquitecturas que mejor se adapten a los requerimientos del sistema
     p De esta manera, el Teorema CAP se convierte en una herramienta conceptual para comprender el comportamiento de los sistemas distribuidos y orientar el diseño de infraestructuras de datos modernas.     
 </template>
 

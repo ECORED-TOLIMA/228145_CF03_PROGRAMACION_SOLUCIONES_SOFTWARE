@@ -91,7 +91,7 @@
             p.text-center.mb-0 Atributo que establece relaciones entre tablas mediante referencias a claves primarias.
     p.mb-4 Las bases de datos poseen características que garantizan la organización y el manejo eficiente de la información:  
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-4
+      .col-lg-4.col-8.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema1/img14.png' alt='AvatarTop')
       .col-lg-6
@@ -107,7 +107,7 @@
           .row(numero="5" titulo="Disponibilidad")
             p Facilitan el acceso oportuno a la información cuando es requerida.
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-6
+      .col-lg-6.order-2.order-lg-1
         LineaTiempoD.color-primario
           .row(numero="6" titulo="Escalabilidad")
             p Soportan el crecimiento de datos y usuarios sin afectar significativamente el rendimiento.
@@ -117,14 +117,14 @@
             p Permiten que varios usuarios interactúen simultáneamente con los datos.
           .row(numero="9" titulo="Recuperación y respaldo")
             p Ofrecen mecanismos para restaurar información ante fallos o pérdidas de datos.
-      .col-lg-4
+      .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         figure
           img(src='@/assets/curso/temas/tema1/img15.png' alt='AvatarTop')
     .row.justify-content-center.align-items-center
       .col-lg-10
-        .bgf1
-          .row.justify-content-center.align-items-center.mb-4
-            .col-auto
+        .bgf1.p-4
+          .row.justify-content-center.align-items-center
+            .col-auto.d-none.d-lg-block
               figure
                 img(src='@/assets/curso/temas/tema1/img16.svg', style="width: 120px", alt='AvatarTop')
             .col-lg-10
@@ -134,7 +134,7 @@
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.2 Evolución y tendencias de las bases de datos
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-4
+      .col-lg-4.col-8.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema1/img17.png' alt='AvatarTop')
       .col-lg-8
@@ -144,12 +144,12 @@
         p.mb-0 Posteriormente surgen las bases de datos jerárquicas y de red, diseñadas para organizar la información mediante estructuras de relaciones predefinidas. Aunque mejoran la organización de los datos, presentan dificultades de flexibilidad y mantenimiento.
     .BGDEGRA4.px-5
       .row.justify-content-center.align-items-center.mb-4
-        .col-lg-7
+        .col-lg-7.order-2.order-lg-1
           .p-4.bgf4.mb-3
             p.mb-0 En la década de 1970, Edgar F. Codd propone el modelo relacional, el cual transforma la administración de datos mediante el uso de tablas relacionadas y el lenguaje SQL. Este enfoque facilita la consulta, manipulación y mantenimiento de la información, convirtiéndose en uno de los modelos más utilizados en sistemas empresariales y aplicaciones de #[i software].
           p Con el crecimiento de Internet, las aplicaciones #[i web] y el manejo masivo de datos, aparecen nuevos modelos de almacenamiento como las bases de datos NoSQL, orientadas al procesamiento de datos semiestructurados y desestructurados. Estas tecnologías priorizan la escalabilidad, el rendimiento y la distribución de datos en múltiples servidores.
           p.mb-0 Más recientemente surgen las bases de datos NewSQL, que combinan características de escalabilidad propias de NoSQL con las propiedades transaccionales y de consistencia de las bases de datos relacionales tradicionales.
-        .col-lg-4
+        .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
           figure
             img(src='@/assets/curso/temas/tema1/img18.png' alt='AvatarTop')
     .titulo.mb-4(data-aos="fade-left")
@@ -463,7 +463,7 @@
                   img(src='@/assets/curso/temas/tema1/img31.png', alt='Texto que describa la imagen')
         .p-4.bgf3.mb-4
           .row.justify-content-center.align-items-center
-            .col-lg-3
+            .col-lg-3.col-8.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema1/img32.png', alt='Texto que describa la imagen')
             .col-lg-6
@@ -673,7 +673,7 @@
                   img(src='@/assets/curso/temas/tema1/img48.png', alt='Texto que describa la imagen')
         .p-4.bgf3.mb-4
           .row.justify-content-center.align-items-center
-            .col-lg-3
+            .col-lg-3.col-8.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema1/img49.png', alt='Texto que describa la imagen')
             .col-lg-5

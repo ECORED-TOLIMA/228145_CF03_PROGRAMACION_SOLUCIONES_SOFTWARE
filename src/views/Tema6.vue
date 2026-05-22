@@ -14,7 +14,7 @@
         p.mb-0 El procesamiento y almacenamiento de datos constituye un aspecto fundamental en el funcionamiento de los sistemas de información, ya que permite gestionar grandes volúmenes de datos de manera organizada, segura y eficiente. En una base de datos, el procesamiento de la información se refiere a las operaciones que se realizan sobre los datos, como consultas, inserciones, actualizaciones y análisis, mientras que el almacenamiento se relaciona con la forma en que los datos se guardan y estructuran dentro del sistema.
     p.mb-4 Los sistemas de bases de datos están diseñados para soportar diferentes tipos de cargas de trabajo, dependiendo del tipo de operaciones que se realizan con la información. Algunas aplicaciones requieren gestionar transacciones en tiempo real, como ocurre en sistemas bancarios o de comercio electrónico, mientras que otras se enfocan en el análisis de grandes volúmenes de datos para la toma de decisiones.
     .row.justify-content-center.align-items-center
-      .col-lg-3
+      .col-lg-3.col-8.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema6/img2.png' alt='AvatarTop')
       .col-lg-9
@@ -46,7 +46,7 @@
     #t_6_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 6.2 Cargas de trabajo analíticas
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-4
+      .col-lg-4.col-8.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema6/img5.png' alt='AvatarTop')
       .col-lg-8
@@ -121,7 +121,7 @@
             h5 Almacenamiento en la nube
             p.mb-0 Los datos se almacenan en infraestructuras distribuidas gestionadas por proveedores de servicios en la nube. Este tipo de almacenamiento facilita la escalabilidad, el acceso remoto y la disponibilidad de la información.
     .row.mb-4
-      .col-lg-6.mb-lg-0
+      .col-lg-6.mb-4.mb-lg-0
         .tarjeta.h-100
           img(src='@/assets/curso/temas/tema6/img11.png', alt='Texto que describa la imagen')
           .bgf11.p-4

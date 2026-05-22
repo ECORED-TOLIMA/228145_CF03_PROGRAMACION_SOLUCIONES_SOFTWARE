@@ -201,7 +201,7 @@
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 4.2 Creación de bases de datos y tablas
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-4
+      .col-lg-4.col-8.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema4/img11.png', alt='Texto que describa la imagen')
       .col-lg-8
@@ -312,12 +312,12 @@
     #t_4_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 4.4 Inserción, actualización y eliminación de registros
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-8
+      .col-lg-8.order-2.order-lg-1
         .p-4.bgf1.mb-2
           p La gestión de la información almacenada en una base de datos implica realizar diferentes operaciones sobre los registros de las tablas. Estas operaciones permiten agregar nuevos datos, modificar información existente o eliminar registros que ya no son necesarios. Para ello se utilizan los comandos del Data Manipulation Language (DML) del Structured Query Language (SQL).
         p Estas acciones permiten mantener actualizada la información dentro del sistema y garantizan que los datos reflejen correctamente las actividades o procesos que se registran en la base de datos.
       
-      .col-lg-4
+      .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         figure
           img(src='@/assets/curso/temas/tema4/Image 82.svg' alt='AvatarTop')
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mb-4

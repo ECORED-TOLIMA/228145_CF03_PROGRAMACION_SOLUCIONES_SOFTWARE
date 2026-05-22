@@ -95,7 +95,7 @@
                   td id_usuario (FK), id_libro (FK).
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
-        .row.align-items-center.mb-4.bgf1
+        .row.align-items-center.mb-4.bgf1.p-4
           .col-lg-auto.d-none.d-lg-block
             figure
               img(src='@/assets/curso/temas/tema3/img8.svg', style="width:100px", alt='Texto que describa la imagen')

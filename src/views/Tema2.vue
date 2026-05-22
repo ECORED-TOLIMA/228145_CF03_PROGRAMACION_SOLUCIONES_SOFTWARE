@@ -7,7 +7,7 @@
         span 2
       h1 Modelado de bases de datos
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-4
+      .col-lg-4.col-8.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema2/img1.png' alt='AvatarTop')
       .col-lg-8
@@ -56,27 +56,27 @@
     .row.justify-content-center.mb-4
       .col-lg-4.mb-4.mb-lg-0
         .crd.crd--grayGrad(data-aos="flip-left")
-          .bottomCircle
+          .bottomCircle.d-none.d-lg-block
             figure
               img(src="@/assets/curso/temas/tema2/img6.svg", alt="alt")
           h5.text-center Entidad
           p.text-center.mb-0 Representa objetivos o conceptos del mundo real sobre las cuales se desea almacenar información, como por ejemplo cliente, productos, pedidos o empleados.
       .col-lg-4.mb-4.mb-lg-0
         .crd.crd--grayGrad(data-aos="flip-left")
-          .bottomCircle
+          .bottomCircle.d-none.d-lg-block
             figure
               img(src="@/assets/curso/temas/tema2/img7.svg", alt="alt")
           h5.text-center Atributos
           p.text-center.mb-0 Son las características o prioridades que describen a una entidad. Por ejemplo, una entidad cliente puede tener atributos como nombre, identificación, correo electronico o ciudad.
       .col-lg-4.mb-4.mb-lg-0
         .crd.crd--grayGrad(data-aos="flip-left")
-          .bottomCircle
+          .bottomCircle.d-none.d-lg-block
             figure
               img(src="@/assets/curso/temas/tema2/img8.svg", alt="alt")
           h5.text-center Relaciones
           p.text-center.mb-0 Indican la forma en que las entidades se vinculan entre si dentro del sistema. Por ejemplo, un cliente puede realizar uno o varios pedidos, lo que establece una relación entre las entidades cliente y pedido.
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5
+      .col-lg-5.col-8.mb-4.mb-lg-0
         figure
           img(src="@/assets/curso/temas/tema2/img9.svg", alt="alt")
       .col-lg-7
@@ -119,8 +119,8 @@
     TabsC.color-acento-botones.mb-4
       .py-3.py-md-4(titulo="Entidad")
         .px-4
-          .row
-            .col-md-5
+          .row.justify-content-center.align-items-center
+            .col-lg-5.col-8.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema2/img12.png', alt='Texto que describa la imagen')
             .col-lg-7.mb-4.mb-md-0
@@ -139,8 +139,8 @@
                     p.mb-0 Pedido
       .py-3.py-md-4(titulo="Atributos")
         .px-4
-          .row
-            .col-md-5
+          .row.justify-content-center.align-items-center
+            .col-lg-5.col-8.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema2/img13.png', alt='Texto que describa la imagen')
             .col-md-7.mb-4.mb-md-0
@@ -162,8 +162,8 @@
                       p.mb-0 Teléfono
       .py-3.py-md-4(titulo="Relaciones")
         .px-4
-          .row
-            .col-md-5
+          .row.justify-content-center.align-items-center
+            .col-lg-5.col-8.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema2/img14.png', alt='Texto que describa la imagen')
             .col-md-7.mb-4.mb-md-0
@@ -176,7 +176,7 @@
                       p.mb-0 Un cliente realiza pedidos.
     p #[b Cardinalidad de las relaciones:] indica la cantidad de instancias de una entidad que pueden relacionarse con otra entidad. Entre las cardinalidades más comunes se encuentran:
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-4
+      .col-lg-4.col-8.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema2/img15.png' alt='AvatarTop')
       .col-lg-6
@@ -310,7 +310,7 @@
       h2 2.4 Transformación del modelo conceptual al modelo lógico
     p.mb-4 La transformación del modelo conceptual al modelo lógico es el proceso mediante el cual la información identificada durante el análisis del sistema se organiza en una estructura que pueda ser implementada dentro de una base de datos.
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-5
+      .col-lg-5.col-8.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema2/img24.png', alt='Infografía de matriz RACI')
       .col-lg-7
@@ -515,7 +515,7 @@
         h5.text-center Garantiza mayor integridad y consistencia en la base de datos.
     p Las formas normales más utilizadas en el diseño de bases de datos son las siguientes:
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-4
+      .col-lg-4.col-8.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema2/img36.png', alt='Texto que describa la imagen')
       .col-lg-8

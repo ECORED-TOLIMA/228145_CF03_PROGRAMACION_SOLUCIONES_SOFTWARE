@@ -24,7 +24,7 @@
     p Un Database Management System (DBMS) es un software especializado que permite crear, almacenar, organizar, consultar y administrar la información contenida en una base de datos. Su función principal es facilitar el manejo de grandes volúmenes de datos de forma estructurada, garantizando su integridad, seguridad y disponibilidad.
     p Los sistemas gestores de bases de datos actúan como intermediarios entre los usuarios o aplicaciones y la base de datos, permitiendo realizar diferentes operaciones como la creación de tablas, la inserción de registros, la consulta de información y la actualización o eliminación de datos.
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-3
+      .col-lg-3.col-8.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema5/img2.svg' alt='AvatarTop')
       .col-lg-9
