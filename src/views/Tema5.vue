@@ -12,7 +12,7 @@
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 La gestión y administración de bases de datos comprende el conjunto de actividades orientadas a garantizar el correcto funcionamiento, organización y mantenimiento de la información almacenada en un sistema. Estas tareas incluyen la creación de bases de datos, la configuración de los sistemas gestores, la supervisión del rendimiento, la seguridad de la información y el control del acceso a los datos.
-    p.mb-4 En los sistemas de información actuales, las bases de datos se gestionan mediante software especializado conocido como Database Management System (DBMS). Estos sistemas permiten crear, almacenar, consultar y administrar grandes volúmenes de información de manera organizada y eficiente.
+    p.mb-4 En los sistemas de información actuales, las bases de datos se gestionan mediante software especializado conocido como #[B Database Management System (DBMS)]. Estos sistemas permiten crear, almacenar, consultar y administrar grandes volúmenes de información de manera organizada y eficiente.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .cajon.color-secundario.p-4.mb-4
@@ -49,7 +49,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .cajon.color-primario.p-4
-          p.mb-0 Actualmente existen diferentes tipos de sistemas gestores de bases de datos que se utilizan según las necesidades del sistema de información. Algunos trabajan con modelos relacionales, mientras que otros utilizan modelos NoSQL orientados a manejar grandes volúmenes de datos o estructuras de información más flexibles.
+          p.mb-0 Actualmente existen diferentes tipos de sistemas gestores de bases de datos que se utilizan según las necesidades del sistema de información. Algunos trabajan con #[b modelos relacionales], mientras que otros utilizan #[b modelos NoSQL] orientados a manejar grandes volúmenes de datos o estructuras de información más flexibles.
     p.mb-0 Entre los sistemas gestores de bases de datos más utilizados se encuentran MySQL, Oracle, PostgreSQL, MongoDB, Cassandra y Neo4j, los cuales ofrecen diferentes características y aplicaciones dentro del desarrollo de sistemas de información.
     Separador
     #t_5_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
@@ -81,7 +81,7 @@
                   th Tipo de base de datos
                   th Característica principal
               tbody
-                tr
+                tr(style="background-color: #F3F9FF;")
                   td MySQL
                   td Relacional.
                   td Amplio uso en aplicaciones web y facilidad de administración.
@@ -89,7 +89,7 @@
                   td Oracle
                   td Relacional.
                   td Alta capacidad para entornos empresariales y grandes volúmenes de datos.
-                tr
+                tr(style="background-color: #F3F9FF;")
                   td PostgreSQL
                   td Relacional.
                   td Sistema robusto de código abierto con alta compatibilidad con estándares SQL.
@@ -97,7 +97,7 @@
                   td MongoDB
                   td NoSQL (documentos).
                   td Almacena información en documentos tipo JSON.
-                tr
+                tr(style="background-color: #F3F9FF;")
                   td Cassandra
                   td NoSQL (columnas).
                   td Diseñado para manejar grandes volúmenes de datos distribuidos.
@@ -119,7 +119,7 @@
           p.mb-0 Las herramientas de modelado de bases de datos son aplicaciones que permiten diseñar, visualizar y estructurar bases de datos antes de su implementación en un sistema gestor de bases de datos. Estas herramientas facilitan la creación de diagramas, la definición de entidades, atributos y relaciones, así como la generación automática de scripts que pueden utilizarse para crear la base de datos en diferentes plataformas.
         p.mb-0 El uso de herramientas de modelado permite organizar de manera clara la estructura de la información, identificar posibles errores en el diseño y documentar el funcionamiento del sistema de datos. De esta manera, los desarrolladores y analistas pueden comprender con mayor facilidad cómo se relacionan los diferentes elementos dentro de la base de datos.
     p Entre las funciones más comunes de estas herramientas se encuentran:
-    .row.justify-content-center.BG04.p-5
+    .row.justify-content-center.BG04.align-items-center.mb-4
       .col-lg-4.d-none.d-lg-block
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/temas/tema5/img5.png", alt="alt").img400.m-auto
@@ -127,27 +127,27 @@
         SlyderF.p-4(columnas="col-lg-4 col-xl-4")
           .tarjeta.tarjeta--slyder.p-4
             .row.justify-content-center.mb-3
-              .col-5
+              .col-8
                 img(src="@/assets/curso/temas/tema5/img6.svg", alt="alt").img100.m-auto
             p.text-center.mb-0 Creación de diagramas Entidad–Relación.
           .tarjeta.tarjeta--slyder.p-4
             .row.justify-content-center.mb-3
-              .col-5
+              .col-8
                 img(src="@/assets/curso/temas/tema5/img7.svg", alt="alt").img100.m-auto
             p.text-center.mb-0 Diseño de modelos relacionales.
           .tarjeta.tarjeta--slyder.p-4
             .row.justify-content-center.mb-3
-              .col-5
+              .col-8
                 img(src="@/assets/curso/temas/tema5/img8.svg", alt="alt").img100.m-auto
             p.text-center.mb-0 Generación automática de código SQL.
           .tarjeta.tarjeta--slyder.p-4
             .row.justify-content-center.mb-3
-              .col-5
+              .col-8
                 img(src="@/assets/curso/temas/tema5/img9.svg", alt="alt").img100.m-auto
             p.text-center.mb-0 Documentación del modelo de datos.
           .tarjeta.tarjeta--slyder.p-4
             .row.justify-content-center.mb-3
-              .col-5
+              .col-8
                 img(src="@/assets/curso/temas/tema5/img10.svg", alt="alt").img100.m-auto
             p.text-center.mb-0 Integración con diferentes sistemas gestores de bases de datos.
     p.mb-4 Existen diversas herramientas utilizadas en el diseño de bases de datos, cada una con características y funcionalidades específicas.
@@ -166,19 +166,19 @@
                   th Herramienta
                   th Característica principal
               tbody
-                tr
+                tr(style="background-color: #F3F9FF;")
                   td Oracle Data Modeler
                   td Permite diseñar modelos conceptuales, lógicos y físicos en entornos basados en Oracle.
                 tr
                   td MySQL Workbench
                   td Facilita el modelado visual y la administración de bases de datos MySQL.
-                tr
+                tr(style="background-color: #F3F9FF;")
                   td PowerDesigner
                   td Herramienta empresarial utilizada para modelado avanzado de datos.
                 tr
                   td Visual Paradigm
                   td Permite modelar sistemas utilizando diferentes tipos de diagramas, incluido el modelo ER.
-                tr
+                tr(style="background-color: #F3F9FF;")
                   td AWS NoSQL Workbench
                   td Herramienta para diseñar y visualizar bases de datos NoSQL en entornos de AWS.
     p.mb-0 Estas herramientas permiten planificar y estructurar adecuadamente las bases de datos, facilitando su implementación, mantenimiento y evolución dentro de los sistemas de información.

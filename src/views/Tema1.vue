@@ -11,15 +11,14 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p Entender las diferencias fundamentales entre estos dos enfoques no es un ejercicio meramente académico: es una competencia práctica que el analista y el equipo de desarrollo deben dominar para tomar decisiones informadas al inicio de cada proyecto. La elección de una metodología inadecuada puede comprometer el éxito del proyecto desde sus primeras semanas, generando fricciones con el cliente, desmotivación en el equipo y productos que no responden a las necesidades reales del negocio.
+        p Las bases de datos constituyen uno de los componentes esenciales en el desarrollo de soluciones de #[i software], ya que permiten almacenar, organizar, consultar y administrar grandes volúmenes de información de manera eficiente. Su implementación facilita la gestión estructurada de los datos en diferentes contextos organizacionales, empresariales y tecnológicos, contribuyendo a la automatización de procesos y a la toma de decisiones basada en información confiable.
     .row.justify-content-center.align-items-center
-      .col-lg-10
-        .tarjeta-avatar-b.mb-4.h-100
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema1/img2.svg' alt='AvatarTop')
-          .tarjeta.bgf1
-            .p-4
-              p.mb-0 En la actualidad, las bases de datos evolucionan constantemente para responder a las necesidades de procesamiento, almacenamiento y análisis de información generadas por aplicaciones #[i web], sistemas empresariales, dispositivos móviles, servicios en la nube y entornos distribuidos. Por esta razón, existen diferentes modelos y tecnologías orientadas a administrar datos estructurados, semiestructurados y desestructurados, adaptándose a diversos requerimientos de escalabilidad, disponibilidad y rendimiento.
+      .col-lg-11        
+        .tarjeta-avatar-b
+          .tarjeta-avatar-b__img.d-none.d-lg-block
+            img(src='@/assets/curso/temas/tema1/img2.svg', alt='AvatarTop')
+          .tarjeta.bgf1.p-4
+            p.mb-0 En la actualidad, las bases de datos evolucionan constantemente para responder a las necesidades de procesamiento, almacenamiento y análisis de información generadas por aplicaciones #[i web], sistemas empresariales, dispositivos móviles, servicios en la nube y entornos distribuidos. Por esta razón, existen diferentes modelos y tecnologías orientadas a administrar datos estructurados, semiestructurados y desestructurados, adaptándose a diversos requerimientos de escalabilidad, disponibilidad y rendimiento.
     Separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.1 Conceptos básicos y características de las bases de datos
@@ -29,7 +28,7 @@
     .p-4.bgf5.mb-4
       p.mb-0 Las bases de datos son utilizadas en múltiples contextos, como sistemas empresariales, plataformas educativas, aplicaciones móviles, redes sociales, sistemas bancarios, servicios de salud y comercio electrónico. Gracias a su capacidad de organización y procesamiento, permiten almacenar grandes cantidades de información y recuperar los datos de manera rápida y precisa.
     p Para comprender el funcionamiento de una base de datos, es necesario reconocer algunos conceptos fundamentales:
-    .row.justify-content-center.BG04.p-5.mb-4
+    .row.justify-content-center.BG04.px-3.mb-4
       .col-lg-4.d-none.d-lg-block
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/temas/tema1/img4.png", alt="alt").img400.m-auto
@@ -37,55 +36,55 @@
         SlyderF.p-4(columnas="col-lg-4 col-xl-4")
           .tarjeta.tarjeta--slyder.p-4
             .row.justify-content-center.mb-3
-              .col-5
+              .col-10
                 img(src="@/assets/curso/temas/tema1/img5.svg", alt="alt").img100.m-auto
             h5.text-center #[b Dato]
             p.text-center.mb-0 Representación básica de información, como números, textos, fechas o imágenes.
           .tarjeta.tarjeta--slyder.p-4
             .row.justify-content-center.mb-3
-              .col-5
+              .col-10
                 img(src="@/assets/curso/temas/tema1/img6.svg", alt="alt").img100.m-auto
             h5.text-center #[b Información]
             p.text-center.mb-0 Conjunto de datos procesados y organizados que adquieren significado.
           .tarjeta.tarjeta--slyder.p-4
             .row.justify-content-center.mb-3
-              .col-5
+              .col-10
                 img(src="@/assets/curso/temas/tema1/img7.svg", alt="alt").img100.m-auto
             h5.text-center #[b Tabla]
             p.text-center.mb-0 Estructura compuesta por filas y columnas utilizada para almacenar datos relacionados.
           .tarjeta.tarjeta--slyder.p-4
             .row.justify-content-center.mb-3
-              .col-5
+              .col-10
                 img(src="@/assets/curso/temas/tema1/img8.svg", alt="alt").img100.m-auto
             h5.text-center #[b Registro]
             p.text-center.mb-0 Fila de una tabla que contiene la información completa de un elemento específico.
           .tarjeta.tarjeta--slyder.p-4
             .row.justify-content-center.mb-3
-              .col-5
+              .col-10
                 img(src="@/assets/curso/temas/tema1/img9.svg", alt="alt").img100.m-auto
             h5.text-center #[b Campo]
             p.text-center.mb-0 Columna de una tabla que almacena un tipo particular de dato.
           .tarjeta.tarjeta--slyder.p-4
             .row.justify-content-center.mb-3
-              .col-5
+              .col-10
                 img(src="@/assets/curso/temas/tema1/img10.svg", alt="alt").img100.m-auto
             h5.text-center #[b Entidad]
             p.text-center.mb-0 Objeto o elemento del mundo real sobre el cual se almacena información.
           .tarjeta.tarjeta--slyder.p-4
             .row.justify-content-center.mb-3
-              .col-5
+              .col-10
                 img(src="@/assets/curso/temas/tema1/img11.svg", alt="alt").img100.m-auto
             h5.text-center #[b Relación]
             p.text-center.mb-0 Asociación existente entre dos o más entidades dentro de una base de datos.
           .tarjeta.tarjeta--slyder.p-4
             .row.justify-content-center.mb-3
-              .col-5
+              .col-10
                 img(src="@/assets/curso/temas/tema1/img12.svg", alt="alt").img100.m-auto
             h5.text-center #[b Clave primaria]
             p.text-center.mb-0 Atributo que identifica de manera única cada registro de una tabla.
           .tarjeta.tarjeta--slyder.p-4
             .row.justify-content-center.mb-3
-              .col-5
+              .col-10
                 img(src="@/assets/curso/temas/tema1/img13.svg", alt="alt").img100.m-auto
             h5.text-center #[b Clave foránea]
             p.text-center.mb-0 Atributo que establece relaciones entre tablas mediante referencias a claves primarias.
@@ -122,11 +121,11 @@
           img(src='@/assets/curso/temas/tema1/img15.png' alt='AvatarTop')
     .row.justify-content-center.align-items-center
       .col-lg-10
-        .bgf1.p-4
+        .bgf1
           .row.justify-content-center.align-items-center
             .col-auto.d-none.d-lg-block
               figure
-                img(src='@/assets/curso/temas/tema1/img16.svg', style="width: 120px", alt='AvatarTop')
+                img(src='@/assets/curso/temas/tema1/img16.svg', style="width: 120px;margin-left:-12%", alt='AvatarTop')
             .col-lg-10
               p.mb-0 Estas características convierten a las bases de datos en herramientas fundamentales para el almacenamiento y procesamiento de información en los sistemas de #[i software] actuales.
 
@@ -162,19 +161,19 @@
           .col-5
             img(src='@/assets/curso/temas/tema1/img19.svg' alt='AvatarTop')
         h5.text-center Bases de datos en la nube
-        p.text-center permiten almacenar y administrar información mediante servicios remotos accesibles desde Internet.
+        p.text-center Permiten almacenar y administrar información mediante servicios remotos accesibles desde Internet.
       .tarjeta.bgfondo--slyderf.p-4
         .row.justify-content-center.mb-3
           .col-5
             img(src='@/assets/curso/temas/tema1/img20.svg' alt='AvatarTop')
         h5.text-center Procesamiento de Big Data
-        p.text-center facilita el análisis de grandes cantidades de datos generados por múltiples fuentes.
+        p.text-center Facilita el análisis de grandes cantidades de datos generados por múltiples fuentes.
       .tarjeta.bgfondo--slyderf.p-4
         .row.justify-content-center.mb-3
           .col-5
             img(src='@/assets/curso/temas/tema1/img21.svg' alt='AvatarTop')
         h5.text-center Bases de datos distribuidas
-        p.text-center almacenan información en diferentes servidores para mejorar la disponibilidad y tolerancia a fallos.
+        p.text-center Almacenan información en diferentes servidores para mejorar la disponibilidad y tolerancia a fallos.
       .tarjeta.bgfondo--slyderf.p-4
         .row.justify-content-center.mb-3
           .col-5
@@ -288,7 +287,7 @@
                             td Laura Gómez
                             td Bogotá
                             td 28
-                          tr
+                          tr(style="background-color: #F3F9FF;")
                             td 102
                             td Andrés Ruiz
                             td Medellín
@@ -348,7 +347,7 @@
             .col-lg-6
               .tarjeta.bgf3.p-4
                 p.text-white Características de los datos semiestructurados:
-                ul.lista-ul.mb-5
+                ul.lista-ul
                   li
                     i.fas.fa-computer(style="color: #FFB758;")
                     p.mb-0.text-white No siguen esquemas definidos.
@@ -369,20 +368,27 @@
                 p.mb-0 Ejemplos de datos desestructurados:
               .tarjeta.bgf10.p-4.mb-2
                 ul.lista-ul.mb-0
-                  li.mb-1
-                    p.mb-0 ° Imágenes.
-                  li.mb-1
-                    p.mb-0 ° Videos
-                  li.mb-1
-                    p.mb-0 ° Audios
-                  li.mb-1
-                    p.mb-0 ° Publicaciones en redes sociales.
-                  li.mb-1
-                    p.mb-0 ° Correos electrónicos.
-                  li.mb-1
-                    p.mb-0 ° Documentos multimedia.
-                  li.mb-1
-                    p.mb-0 ° Archivos PDF o Word sin estructura uniforme.
+                  li.mb-0
+                    i.lista-ul__vineta
+                    | Imágenes.
+                  li.mb-0
+                    i.lista-ul__vineta
+                    | Videos
+                  li.mb-0
+                    i.lista-ul__vineta
+                    | Audios
+                  li.mb-0
+                    i.lista-ul__vineta
+                    | Publicaciones en redes sociales.
+                  li.mb-0
+                    i.lista-ul__vineta
+                    | Correos electrónicos.
+                  li.mb-0
+                    i.lista-ul__vineta
+                    | Documentos multimedia.
+                  li.mb-0
+                    i.lista-ul__vineta
+                    | Archivos PDF o Word sin estructura uniforme.
           p.mb-0 Por ejemplo, un video publicado en una plataforma digital contiene información visual, auditiva y textual que no puede organizarse fácilmente en tablas tradicionales.
     p.mb-4 Con el fin de identificar las principales diferencias entre los modelos de datos estructurados, semiestructurados y desestructurados, a continuación, se presenta una comparación relacionada con su organización, ejemplos y tecnologías utilizadas para su almacenamiento y procesamiento.                    
     .row.justify-content-center.align-items-center.mb-3
@@ -402,7 +408,7 @@
                   th Ejemplo
                   th Tecnología frecuente
               tbody
-                tr
+                tr(style="background-color: #F3F9FF;")
                   th Estructurado.
                   td Fija y organizada.
                   td Tablas de clientes.
@@ -412,7 +418,7 @@
                   td Flexible con etiquetas.
                   td JSON y XML.
                   td Bases de datos NoSQL.
-                tr
+                tr(style="background-color: #F3F9FF;")
                   td Desestructurado.
                   td Sin estructura definida.
                   td Videos e imágenes.
@@ -435,32 +441,30 @@
     p Estas bases de datos son ampliamente utilizadas en sistemas empresariales y aplicaciones que requieren consistencia, integridad y control de transacciones.
     .row.justify-content-center.align-items-center
       .col-lg-10
-        .bgf1.p-4.mb-4
-            .row.justify-content-center.align-items-center
-              .col-lg-8.order-2.order-lg-1
-                p Características de las bases de datos relacionales:
-                ol.lista-ol--cuadro
-                  li
-                  i.fas.fa-computer(style="color: #FFB758;")
-                  |  Utilizan tablas estructuradas.
-                  li
-                  i.fas.fa-computer(style="color: #FFB758;")
-                  |  Implementan relaciones entre entidades.
-                  li
-                  i.fas.fa-computer(style="color: #FFB758;")
-                  |  Emplean lenguaje SQL.
-                  li
-                  i.fas.fa-computer(style="color: #FFB758;")
-                  |  Garantizan integridad y consistencia de los datos.
-                  li
-                  i.fas.fa-computer(style="color: #FFB758;")
-                  |  Aplican principios ACID para la gestión de transacciones.
-                  li
-                  i.fas.fa-computer(style="color: #FFB758;")
-                  |  Facilitan consultas complejas y estructuradas.
-              .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
-                figure
-                  img(src='@/assets/curso/temas/tema1/img31.png', alt='Texto que describa la imagen')
+        .bloque-texto-gg.bloque-texto-gg--inverso.bgf1.mb-4
+          .bloque-texto-gg__img1(:style="{'background-image':`url(${require('@/assets/curso/temas/tema1/img31.png')})`}")
+          .bloque-texto-ggg__texto.p-4
+            p Características de las bases de datos relacionales:
+            ol.lista-ol--cuadro
+              li
+              i.fas.fa-computer(style="color: #FFB758;")
+              |  Utilizan tablas estructuradas.
+              li
+              i.fas.fa-computer(style="color: #FFB758;")
+              |  Implementan relaciones entre entidades.
+              li
+              i.fas.fa-computer(style="color: #FFB758;")
+              |  Emplean lenguaje SQL.
+              li
+              i.fas.fa-computer(style="color: #FFB758;")
+              |  Garantizan integridad y consistencia de los datos.
+              li
+              i.fas.fa-computer(style="color: #FFB758;")
+              |  Aplican principios ACID para la gestión de transacciones.
+              li
+              i.fas.fa-computer(style="color: #FFB758;")
+              |  Facilitan consultas complejas y estructuradas.
+        
         .p-4.bgf3.mb-4
           .row.justify-content-center.align-items-center
             .col-lg-3.col-8.mb-4.mb-lg-0
@@ -469,47 +473,51 @@
             .col-lg-6
               p.text-white Ejemplos de bases de datos relacionales:
               .tarjeta
-                ol.lista-ol--cuadro
+                ul.lista-ul.mb-0
                   li
-                    p.mb-0.text-white ° MySQL.
+                    i.lista-ul__vineta(style="color: #FFF;")
+                    p.mb-0.text-white MySQL.
                   li
-                    p.mb-0.text-white ° PostgreSQL.
+                    i.lista-ul__vineta(style="color: #FFF;")
+                    p.mb-0.text-white PostgreSQL.
                   li
-                    p.mb-0.text-white ° Oracle Database.
+                    i.lista-ul__vineta(style="color: #FFF;")
+                    p.mb-0.text-white Oracle Database.
                   li
-                    p.mb-0.text-white ° Microsoft SQL Server.
-        .row.justify-content-center.align-items-center.mb-3
-          .col-lg-12
-            .titulo-sexto.color-acento-contenido
-              h5 Tabla 3.
-              span Ejemplo de estructura relacional
-        .row.justify-content-center.align-items-center.mb-4
-          .col-lg-12
-            .tabla-a.color-acento-contenido 
-              .tabla-a 
-                table
-                  thead
-                    tr
-                      th Id_cliente
-                      th Nombre
-                      th Ciudad
-                  tbody
-                    tr
-                      td 101
-                      td Laura Gómez
-                      td Bogotá
-                    tr  
-                      td 102
-                      td Andrés Ruiz
-                      td Medellín
-        p En este ejemplo, los datos se organizan de manera estructurada en tablas con atributos definidos.
+                    i.lista-ul__vineta(style="color: #FFF;")
+                    p.mb-0.text-white Microsoft SQL Server.
+    .row.justify-content-center.align-items-center.mb-3
+      .col-lg-12
+        .titulo-sexto.color-acento-contenido
+          h5 Tabla 3.
+          span Ejemplo de estructura relacional
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-12
+        .tabla-a.color-acento-contenido 
+          .tabla-a 
+            table
+              thead
+                tr
+                  th Id_cliente
+                  th Nombre
+                  th Ciudad
+              tbody
+                tr(style="background-color: #F3F9FF;")
+                  td 101
+                  td Laura Gómez
+                  td Bogotá
+                tr  
+                  td 102
+                  td Andrés Ruiz
+                  td Medellín
+    p En este ejemplo, los datos se organizan de manera estructurada en tablas con atributos definidos.
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
       h5 b) Bases de datos NoSQL
     p Surgen como alternativa a los sistemas relacionales tradicionales, especialmente para manejar grandes volúmenes de datos distribuidos, semiestructurados y desestructurados. Estas bases de datos priorizan la escalabilidad, disponibilidad y flexibilidad en el almacenamiento de información.
     p El término NoSQL significa “Not Only SQL”, indicando que estos sistemas pueden utilizar diferentes modelos de almacenamiento distintos al modelo tabular tradicional.
     p Características de las bases de datos NoSQL:
-    .row.justify-content-center.BG04.p-5.mb-4
+    .row.justify-content-center.BG04.px-3.mb-4
       .col-lg-4.d-none.d-lg-block
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/temas/tema1/img33.png", alt="alt").img400.m-auto
@@ -569,37 +577,37 @@
     .tarjeta--container.row.mb-4
       .col.bgf5.p-5
         .row.justify-content-center.mb-4
-          .col-6
+          .col-4
             figure
               img(src='@/assets/curso/temas/tema1/img43.svg', alt='Texto que describa la imagen')
           
         h5.text-center MongoDB.
       .col.tarjeta.bgf1.p-5
         .row.justify-content-center.mb-4
-          .col-6
+          .col-4
             figure
               img(src='@/assets/curso/temas/tema1/img44.svg', alt='Texto que describa la imagen')
           
         h5.text-center Cassandra.
       .col.tarjeta.bgf5.p-5
         .row.justify-content-center.mb-4
-          .col-6
+          .col-4
             figure
               img(src='@/assets/curso/temas/tema1/img45.svg', alt='Texto que describa la imagen')
           
         h5.text-center Redis.
       .col.bgf1.p-5
         .row.justify-content-center.mb-4
-          .col-6
+          .col-4
             figure
               img(src='@/assets/curso/temas/tema1/img46.svg', alt='Texto que describa la imagen')
           
         h5.text-center Neo4j.
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-3
       .col-lg-6
         .titulo2.p-1
           p.text-center.mb-0 Ejemplo de documento NoSQL en formato JSON:
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .tarjeta.color-primario.p-0.mt-3.overflow-hidden
                 .px-3.py-2(style="background-color: #3A1D71; display: flex; align-items: center;")
@@ -612,15 +620,15 @@
                     .col-md-5.mb-3.mb-md-0
                       h4.text-white {
                         p.text-white.ms-3.mb-1
-                          | "cliente": "Laura Gómez",
+                          | "cliente": <span style='color:#68EAE0 !important'>"Laura Gómez"</span>,
                         p.text-white.ms-3.mb-1
-                          | "ciudad": "Bogotá",
+                          | "ciudad": <span style='color:#68EAE0 !important'>"Bogotá"</span>,
                         p.text-white.ms-3.mb-1
                           | "productos": [
                         p.text-white.ms-5.mb-1
-                          | "Portátil",
+                          | <span style='color:#68EAE0 !important'>"Portátil"</span>,
                         p.text-white.ms-5.mb-1
-                          | "Teclado"
+                          | <span style='color:#68EAE0 !important'>"Teclado"</span>
                         p.text-white.ms-3.mb-1
                           | ]
                         p.text-white.ms-3.mb-1
@@ -648,29 +656,27 @@
     p Estas tecnologías son utilizadas en aplicaciones modernas que requieren alto rendimiento transaccional y procesamiento distribuido.
     .row.justify-content-center.align-items-center
       .col-lg-10
-        .bgf1.p-4.mb-4
-            .row.justify-content-center.align-items-center
-              .col-lg-8.order-2.order-lg-1
-                p Características de las bases de datos NewSQL:
-                ol.lista-ol--cuadro
-                  li
-                  i.fas.fa-computer(style="color: #FFB758;")
-                  |  Utilizan lenguaje SQL.
-                  li
-                  i.fas.fa-computer(style="color: #FFB758;")
-                  |  Mantienen propiedades ACID.
-                  li
-                  i.fas.fa-computer(style="color: #FFB758;")
-                  |  Permiten escalabilidad horizontal.
-                  li
-                  i.fas.fa-computer(style="color: #FFB758;")
-                  |  Soportan arquitecturas distribuidas.
-                  li
-                  i.fas.fa-computer(style="color: #FFB758;")
-                  |  Optimizan el procesamiento de transacciones en tiempo real.
-              .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
-                figure
-                  img(src='@/assets/curso/temas/tema1/img48.png', alt='Texto que describa la imagen')
+        .bloque-texto-gg.bloque-texto-gg--inverso.bgf1.mb-4
+          .bloque-texto-gg__img1(:style="{'background-image':`url(${require('@/assets/curso/temas/tema1/img48.png')})`}")
+          .bloque-texto-ggg__texto.p-4
+            p Características de las bases de datos NewSQL:
+            ol.lista-ol--cuadro
+              li
+              i.fas.fa-computer(style="color: #FFB758;")
+              |  Utilizan lenguaje SQL.
+              li
+              i.fas.fa-computer(style="color: #FFB758;")
+              |  Mantienen propiedades ACID.
+              li
+              i.fas.fa-computer(style="color: #FFB758;")
+              |  Permiten escalabilidad horizontal.
+              li
+              i.fas.fa-computer(style="color: #FFB758;")
+              |  Soportan arquitecturas distribuidas.
+              li
+              i.fas.fa-computer(style="color: #FFB758;")
+              |  Optimizan el procesamiento de transacciones en tiempo real.
+              
         .p-4.bgf3.mb-4
           .row.justify-content-center.align-items-center
             .col-lg-3.col-8.mb-4.mb-lg-0
@@ -679,15 +685,19 @@
             .col-lg-5
               p.text-white Ejemplos de bases de datos NewSQL:
               .tarjeta
-                ol.lista-ol--cuadro
+                ul.lista-ul.mb-0
                   li
-                    p.mb-0.text-white ° Google Spanner.
+                    i.lista-ul__vineta(style="color: #FFF;")
+                    p.mb-0.text-white Google Spanner.
                   li
-                    p.mb-0.text-white ° CockroachDB.
+                    i.lista-ul__vineta(style="color: #FFF;")
+                    p.mb-0.text-white CockroachDB.
                   li
-                    p.mb-0.text-white ° VoltDB.
+                    i.lista-ul__vineta(style="color: #FFF;")
+                    p.mb-0.text-white VoltDB.
                   li
-                    p.mb-0.text-white ° NuoDB.
+                    i.lista-ul__vineta(style="color: #FFF;")
+                    p.mb-0.text-white NuoDB.
     p Con el propósito de identificar las principales diferencias entre las bases de datos relacionales, NoSQL y NewSQL, a continuación, se presenta una comparación relacionada con su estructura, escalabilidad, manejo de datos y aplicaciones más frecuentes.
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-12
@@ -706,7 +716,7 @@
                   th NoSQL
                   th NewSQL
               tbody
-                tr
+                tr(style="background-color: #F3F9FF;")
                   th Estructura de datos.
                   td Tablas.
                   td Flexible.
@@ -716,7 +726,7 @@
                   td SQL.
                   td Variable.
                   td SQL.
-                tr
+                tr(style="background-color: #F3F9FF;")
                   td Escalabilidad.
                   td Vertical.
                   td Horizontal.
@@ -726,7 +736,7 @@
                   td Sí.
                   td Parcial o limitada.
                   td Sí.
-                tr
+                tr(style="background-color: #F3F9FF;")
                   td Tipo de datos.
                   td Estructurados.
                   td Semi y desestructurados.

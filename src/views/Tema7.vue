@@ -61,7 +61,11 @@
             figure
               img(src="@/assets/curso/temas/tema7/img5.png", alt="alt")
           .crd_hover_txt--body
-            h5.text-center.mb-3 Inserción de datos
+            .tit-tarj.p-3
+              .ubicar
+                .acordion__accion.acordion__accion__btn--b.h3.mb-0
+                  i.fas.fa-angle-up
+                h5.mb-3 Inserción de datos
             p.mb-0 Permite agregar nuevos registros o documentos dentro de la base de datos. Dependiendo del tipo de base de datos, la información puede almacenarse como documentos, pares clave-valor o nodos en un grafo.
 
       .col-xl-3.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
@@ -70,7 +74,11 @@
             figure
               img(src="@/assets/curso/temas/tema7/img6.png", alt="alt")
           .crd_hover_txt--body
-            h5.text-center.mb-3 Consulta de datos
+            .tit-tarj.p-3
+              .ubicar
+                .acordion__accion.acordion__accion__btn--b.h3.mb-0
+                  i.fas.fa-angle-up
+                h5.mb-3 Consulta de datos
             p.mb-0 Permite recuperar información almacenada en la base de datos mediante diferentes criterios de búsqueda. Las consultas pueden realizarse por identificadores, atributos específicos o condiciones definidas por el usuario.
 
       .col-xl-3.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
@@ -79,7 +87,11 @@
             figure
               img(src="@/assets/curso/temas/tema7/img7.png", alt="alt")
           .crd_hover_txt--body
-            h5.text-center.mb-3 Actualización de datos
+            .tit-tarj.p-3
+              .ubicar
+                .acordion__accion.acordion__accion__btn--b.h3.mb-0
+                  i.fas.fa-angle-up
+                h5.mb-3 Actualización de datos
             p.mb-0 Permite modificar la información existente dentro de los registros o documentos almacenados en la base de datos, manteniendo la integridad y consistencia de los datos.
       
       .col-xl-3.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
@@ -88,7 +100,11 @@
             figure
               img(src="@/assets/curso/temas/tema7/img8.png", alt="alt")
           .crd_hover_txt--body
-            h5.text-center.mb-3 Eliminación de datos
+            .tit-tarj.p-3
+              .ubicar
+                .acordion__accion.acordion__accion__btn--b.h3.mb-0
+                  i.fas.fa-angle-up
+                h5.mb-3 Eliminación de datos
             p.mb-0 Permite borrar registros, documentos o elementos que ya no son necesarios dentro del sistema.
     p.mb-0 Estas operaciones constituyen la base para la manipulación de datos en sistemas NoSQL y permiten que las aplicaciones puedan gestionar grandes volúmenes de información de manera flexible y eficiente.
     Separador
@@ -96,7 +112,7 @@
       h2 7.3 Consultas, filtrado y agregación de datos
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
-        .bloque-texto-gg.bgf1.mb-4
+        .bloque-texto-gg.bgf1
           .bloque-texto-gg__texto.p-4
             p En las bases de datos NoSQL, las consultas permiten recuperar información almacenada en colecciones, documentos o registros según diferentes criterios. A diferencia de las bases de datos relacionales, donde las consultas se realizan principalmente mediante el lenguaje SQL, en los sistemas NoSQL las consultas se ejecutan utilizando estructuras propias de cada gestor de base de datos.
             p.mb-0 Las consultas permiten seleccionar información específica dentro de la base de datos, facilitando el acceso a los datos que cumplen determinadas condiciones. Para lograrlo, se utilizan diferentes mecanismos como el filtrado y la agregación de datos.
@@ -119,7 +135,7 @@
                   .row.align-items-center
                     .col-md-5.mb-3.mb-md-0
                       h4.text-white db.estudiantes.find()
-          p.mb-0 En este caso, la información posee organización mediante etiquetas, pero no requiere una estructura fija en todos los registros.              
+         
       .row(titulo="Filtrado de información")
         .col-lg    
           p.mb-4 Permite seleccionar únicamente los registros que cumplen ciertas condiciones dentro de la consulta. Esto facilita encontrar datos específicos dentro de grandes volúmenes de información. Por ejemplo:
@@ -152,7 +168,7 @@
                       p.text-white.ms-3.mb-1 { $group: { _id: "$programa", total: { $sum: 1 } } }
                       h4.text-white ])
           p.mb-0 Este ejemplo permite contar cuántos estudiantes existen en cada programa académico.
-    p En conjunto, estas operaciones permiten consultar, organizar y analizar grandes volúmenes de información dentro de las bases de datos NoSQL, facilitando su uso en aplicaciones modernas que requieren alta escalabilidad y flexibilidad en el manejo de datos. 
+    p.mb-0 En conjunto, estas operaciones permiten consultar, organizar y analizar grandes volúmenes de información dentro de las bases de datos NoSQL, facilitando su uso en aplicaciones modernas que requieren alta escalabilidad y flexibilidad en el manejo de datos. 
     Separador
     #t_7_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 7.4 Teorema CAP y sistemas distribuidos
@@ -162,7 +178,7 @@
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 En los sistemas de bases de datos distribuidos, la información se almacena y procesa en varios servidores o nodos que trabajan de manera conjunta. Este tipo de arquitectura permite manejar grandes volúmenes de datos y garantizar una mayor disponibilidad del sistema. Sin embargo, también implica enfrentar desafíos relacionados con la consistencia y la disponibilidad de la información.
-    p En este contexto surge el Teorema CAP, un principio que explica las limitaciones que existen en los sistemas distribuidos. Este teorema establece que un sistema distribuido no puede garantizar simultáneamente tres propiedades fundamentales cuando ocurre una partición de red.
+    p En este contexto surge el #[b Teorema CAP], un principio que explica las limitaciones que existen en los sistemas distribuidos. Este teorema establece que un sistema distribuido no puede garantizar simultáneamente tres propiedades fundamentales cuando ocurre una partición de red.
     p.mb-4 Estas propiedades son las siguientes:
     .row.justify-content-center.mb-4
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
@@ -172,7 +188,7 @@
               img(src="@/assets/curso/temas/tema7/img11.png", alt="alt")
           .crd_hover_txt--body
             h5.text-center.mb-3 Consistencia (Consistency)
-            p.mb-0 todos los nodos del sistema muestran la misma información al mismo tiempo. Cuando se realiza una actualización de datos, cualquier usuario que consulte el sistema obtiene el mismo resultado.
+            p.mb-0 Todos los nodos del sistema muestran la misma información al mismo tiempo. Cuando se realiza una actualización de datos, cualquier usuario que consulte el sistema obtiene el mismo resultado.
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
@@ -181,7 +197,7 @@
               img(src="@/assets/curso/temas/tema7/img12.png", alt="alt")
           .crd_hover_txt--body
             h5.text-center.mb-3 Disponibilidad (Availability)
-            p.mb-0 el sistema responde a las solicitudes de los usuarios incluso si algunos nodos presentan fallas. Esto significa que el servicio permanece accesible.
+            p.mb-0 El sistema responde a las solicitudes de los usuarios incluso si algunos nodos presentan fallas. Esto significa que el servicio permanece accesible.
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
@@ -190,7 +206,7 @@
               img(src="@/assets/curso/temas/tema7/img13.png", alt="alt")
           .crd_hover_txt--body
             h5.text-center.mb-3 Tolerancia a particiones (Partition Tolerance)
-            p.mb-0 el sistema continúa funcionando incluso cuando ocurre una falla de comunicación entre algunos nodos de la red.
+            p.mb-0 El sistema continúa funcionando incluso cuando ocurre una falla de comunicación entre algunos nodos de la red.
     p El Teorema CAP indica que, en presencia de una partición de red, un sistema solo puede garantizar dos de estas tres propiedades al mismo tiempo. Por esta razón, los diseñadores de sistemas deben priorizar cuáles características son más importantes según las necesidades de la aplicación.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
@@ -214,7 +230,7 @@
             p ° Disponibilidad y tolerancia a particiones (AP)
           .row(titulo="Seleccionar la tecnología adecuada")
             p A partir de estas decisiones se eligen las bases de datos o arquitecturas que mejor se adapten a los requerimientos del sistema
-    p De esta manera, el Teorema CAP se convierte en una herramienta conceptual para comprender el comportamiento de los sistemas distribuidos y orientar el diseño de infraestructuras de datos modernas.     
+    p De esta manera, el #[b Teorema CAP] se convierte en una herramienta conceptual para comprender el comportamiento de los sistemas distribuidos y orientar el diseño de infraestructuras de datos modernas.     
 </template>
 
 <script>

@@ -1,6 +1,6 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(icono="far fa-question-circle" titulo="Actividad did?ctica")
+    BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
       #Actividad
         <Actividad :cuestionario="cuestionario"/>
@@ -16,7 +16,7 @@ export default {
       tema: 'NOMBRE DEL COMPONENTE FORMATIVO',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> Evaluar la comprensión de los conceptos fundamentales relacionados con las bases de datos, su modelado, estructura, manipulación, gestión y funcionamiento en sistemas modernos, con el fin de reconocer cómo se organizan, procesan y administran los datos en diferentes entornos tecnológicos.',
+        '<b>Objetivo:</b> evaluar la comprensión de los conceptos fundamentales relacionados con las bases de datos, su modelado, estructura, manipulación, gestión y funcionamiento en sistemas modernos, con el fin de reconocer cómo se organizan, procesan y administran los datos en diferentes entornos tecnológicos.',
       barajarPreguntas: true,
       titulo_aprobado: '?BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',

@@ -263,7 +263,7 @@ export default {
       },
       {
         icono: 'fas fa-book',
-        titulo: 'Referencias bibliogr?ficas',
+        titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
       },
       {

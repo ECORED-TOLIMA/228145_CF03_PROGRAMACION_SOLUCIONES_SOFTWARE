@@ -31,35 +31,35 @@
         .row.align-items-center.mb-4.bgf1
           .col-lg-auto.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/tema4/img2.svg', style="width:100px", alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema4/img2.svg', style="width: 120px;margin-left:-12%", alt='Texto que describa la imagen')
           .col-lg-10
             p.mb-0 El DDL es fundamental en el proceso de diseño de bases de datos, ya que permite implementar la estructura definida en el modelo lógico dentro del sistema gestor de bases de datos.
     p Entre sus funciones principales se encuentran:
     .tarjeta--container.row.mb-4
       .col.tarjeta.bgf5.p-5
         .row.justify-content-center.mb-4
-          .col-6
+          .col-5
             figure
               img(src='@/assets/curso/temas/tema4/img3.svg', alt='Texto que describa la imagen')
           
         h5.text-center Crear estructuras de datos como bases de datos y tablas.
       .col.tarjeta.bgf1.p-5
         .row.justify-content-center.mb-4
-          .col-6
+          .col-5
             figure
               img(src='@/assets/curso/temas/tema4/img4.svg', alt='Texto que describa la imagen')
           
         h5.text-center Modificar estructuras existentes.
       .col.tarjeta.bgf5.p-5
         .row.justify-content-center.mb-4
-          .col-6
+          .col-5
             figure
               img(src='@/assets/curso/temas/tema4/img5.svg', alt='Texto que describa la imagen')
           
         h5.text-center Eliminar objetos de la base de datos.
       .col.tarjeta.bgf1.p-5
         .row.justify-content-center.mb-4
-          .col-6
+          .col-5
             figure
               img(src='@/assets/curso/temas/tema4/img6.svg', alt='Texto que describa la imagen')
           
@@ -80,13 +80,13 @@
                   th Comando
                   th Función
               tbody
-                tr
+                tr(style="background-color: #F3F9FF;")
                   th CREATE
                   td Permite crear bases de datos, tablas u otros objetos.
                 tr
                   td ALTER
                   td Permite modificar la estructura de una tabla existente.
-                tr
+                tr(style="background-color: #F3F9FF;")
                   td DROP
                   td Permite eliminar objetos de la base de datos.
                 tr
@@ -95,7 +95,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-5
         .titulo2
-          p.text-center.mb-0 Referentes teóricos:
+          p.text-center.mb-0 Ejemplo de creación de una tabla:
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .tarjeta.color-primario.p-0.mt-3.overflow-hidden
@@ -124,28 +124,28 @@
     .tarjeta--container.row.mb-4
       .col.bgf5.p-5
         .row.justify-content-center.mb-4
-          .col-6
+          .col-5
             figure
               img(src='@/assets/curso/temas/tema4/img7.svg', alt='Texto que describa la imagen')
           
         h5.text-center Insertar nuevos registros.
       .col.tarjeta.bgf1.p-5
         .row.justify-content-center.mb-4
-          .col-6
+          .col-5
             figure
               img(src='@/assets/curso/temas/tema4/img8.svg', alt='Texto que describa la imagen')
           
         h5.text-center Consultar información almacenada.
       .col.tarjeta.bgf5.p-5
         .row.justify-content-center.mb-4
-          .col-6
+          .col-5
             figure
               img(src='@/assets/curso/temas/tema4/img9.svg', alt='Texto que describa la imagen')
           
         h5.text-center Actualizar datos existentes.
       .col.bgf1.p-5
         .row.justify-content-center.mb-4
-          .col-6
+          .col-5
             figure
               img(src='@/assets/curso/temas/tema4/img10.svg', alt='Texto que describa la imagen')
           
@@ -166,13 +166,13 @@
                   th Comando
                   th Función
               tbody
-                tr
+                tr(style="background-color: #F3F9FF;")
                   th INSERT
                   td Permite agregar nuevos registros a una tabla.
                 tr
                   td SELECT
                   td Permite consultar información almacenada.
-                tr
+                tr(style="background-color: #F3F9FF;")
                   td UPDATE
                   td Permite modificar datos existentes.
                 tr
@@ -206,8 +206,8 @@
           img(src='@/assets/curso/temas/tema4/img11.png', alt='Texto que describa la imagen')
       .col-lg-8
         p La creación de bases de datos y tablas constituye uno de los primeros pasos en la implementación de un sistema de información. En esta etapa se definen las estructuras que permitirán almacenar, organizar y gestionar los datos dentro del sistema gestor de bases de datos.
-        .bgf5.p-4.mb-2
-          p Una base de datos es un conjunto organizado de información que se almacena de manera estructurada para facilitar su consulta, administración y actualización. Dentro de una base de datos se crean tablas, las cuales permiten guardar los datos relacionados con una entidad específica del sistema.
+        .bgf5.p-4.mb-3
+          p.mb-0 Una base de datos es un conjunto organizado de información que se almacena de manera estructurada para facilitar su consulta, administración y actualización. Dentro de una base de datos se crean tablas, las cuales permiten guardar los datos relacionados con una entidad específica del sistema.
         p Cada tabla está compuesta por columnas y filas. Las columnas representan los atributos o características de la información que se desea registrar, mientras que las filas corresponden a cada uno de los registros almacenados.
         p.mb-0 Para realizar estas operaciones se utilizan comandos del Data Definition Language (DDL) dentro del lenguaje Structured Query Language (SQL).
     .titulo.mb-4(data-aos="fade-left")
@@ -217,44 +217,51 @@
     p Por ejemplo:
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
-        .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-2
-                .px-3.py-2(style="background-color: #311a6a; display: flex; align-items: center;")
-                  .d-flex
-                    .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #68EAE0;")
-                    .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #68C6EA;")
-                    .circle(style="width: 12px; height: 12px; border-radius: 50%; background-color: #FFB758;")
-                .p-4(style="background-color: #0d0d2b;")
-                  .row.align-items-center
-                    .col-md-5.mb-3.mb-md-0
-                      h4.text-white CREATE DATABASE Biblioteca;
+        .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-4
+          .px-3.py-2(style="background-color: #311a6a; display: flex; align-items: center;")
+            .d-flex
+              .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #68EAE0;")
+              .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #68C6EA;")
+              .circle(style="width: 12px; height: 12px; border-radius: 50%; background-color: #FFB758;")
+          .p-4(style="background-color: #0d0d2b;")
+            .row.align-items-center
+              .col-md-5.mb-3.mb-md-0
+                h4.text-white CREATE DATABASE Biblioteca;
         .bgf5.p-4
           p.mb-0 Este comando crea una base de datos llamada Biblioteca, que servirá como contenedor para las tablas y demás objetos relacionados con el sistema.
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
       h5 Creación de una tabla
-    p una vez creada la base de datos, es posible crear tablas que permitan almacenar la información. Para ello se utiliza el comando CREATE TABLE.
+    p Una vez creada la base de datos, es posible crear tablas que permitan almacenar la información. Para ello se utiliza el comando CREATE TABLE.
     p Por ejemplo:
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
-        .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-2
-                .px-3.py-2(style="background-color: #311a6a; display: flex; align-items: center;")
-                  .d-flex
-                    .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #68EAE0;")
-                    .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #68C6EA;")
-                    .circle(style="width: 12px; height: 12px; border-radius: 50%; background-color: #FFB758;")
-                .p-4(style="background-color: #0d0d2b;")
-                  .row.align-items-center
-                    .col-md-5.mb-3.mb-md-0
-                      h4.text-white CREATE TABLE Usuario (
-                      p.text-white.ms-3.mb-1 id_usuario INT PRIMARY KEY,
-                      p.text-white.ms-3.mb-1 nombre VARCHAR(100),
-                      p.text-white.ms-3.mb-1 correo VARCHAR(100)
-                      h4.text-white )
+        .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-4
+          .px-3.py-2(style="background-color: #311a6a; display: flex; align-items: center;")
+            .d-flex
+              .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #68EAE0;")
+              .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #68C6EA;")
+              .circle(style="width: 12px; height: 12px; border-radius: 50%; background-color: #FFB758;")
+          .p-4(style="background-color: #0d0d2b;")
+            .row.align-items-center
+              .col-md-5.mb-3.mb-md-0
+                h4.text-white CREATE TABLE Usuario (
+                p.text-white.ms-3.mb-1 id_usuario INT PRIMARY KEY,
+                p.text-white.ms-3.mb-1 nombre VARCHAR(100),
+                p.text-white.ms-3.mb-1 correo VARCHAR(100)
+                h4.text-white )
         .bgf5.p-4
           p.mb-0 En este ejemplo se crea la tabla Usuario, la cual contiene tres columnas:
-          p.mb-0 ° #[b id_usuario:] identifica de manera única a cada usuario y funciona como clave primaria.
-          p.mb-0 ° #[b nombre:] almacena el nombre del usuario.
-          p.mb-0 ° #[b correo:] registra la dirección de correo electrónico.
+          ul.lista-ul.mb-0
+            li
+              i.lista-ul__vineta
+              p.mb-0 #[b id_usuario:] identifica de manera única a cada usuario y funciona como clave primaria.
+            li
+              i.lista-ul__vineta
+              p.mb-0 #[b nombre:] almacena el nombre del usuario.
+            li
+              i.lista-ul__vineta
+              p.mb-0 #[b correo:] registra la dirección de correo electrónico.
     p.mb-0 La creación adecuada de bases de datos y tablas permite establecer una estructura organizada para el almacenamiento de la información, facilitando posteriormente la manipulación, consulta y administración de los datos dentro del sistema.
     
     Separador
@@ -264,10 +271,10 @@
       img(src='@/assets/curso/temas/tema4/img12.png' alt='AvatarTop')
     .p-4.bgf5.mb-4
       p.mb-0 En el proceso de administración de una base de datos, es común que la estructura de las tablas necesite ajustarse con el tiempo. Estas modificaciones pueden surgir por nuevos requerimientos del sistema, cambios en los procesos de información o la necesidad de agregar nuevos atributos a los datos almacenados.
-    p La modificación de la estructura de las tablas se realiza mediante el comando ALTER TABLE, el cual forma parte del Data Definition Language (DDL) dentro del Structured Query Language (SQL). Este comando permite agregar, modificar o eliminar columnas en una tabla existente sin afectar la base de datos completa.
+    p La modificación de la estructura de las tablas se realiza mediante el comando #[b ALTER TABLE], el cual forma parte del #[b Data Definition Language (DDL)] dentro del #[b Structured Query Language (SQL)]. Este comando permite agregar, modificar o eliminar columnas en una tabla existente sin afectar la base de datos completa.
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mb-4
       .row(titulo="Agregar una nueva columna")
-        p el comando ADD permite incorporar un nuevo atributo a una tabla. Por ejemplo:
+        p El comando ADD permite incorporar un nuevo atributo a una tabla. Por ejemplo:
         .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-2
                 .px-3.py-2(style="background-color: #311a6a; display: flex; align-items: center;")
                   .d-flex
@@ -281,7 +288,7 @@
                       h4.text-white ADD telefono VARCHAR(20);
         p En este caso se agrega la columna telefono a la tabla Usuario, permitiendo registrar un número de contacto para cada usuario.
       .row(titulo="Modificar una columna existente")
-        p el comando ALTER COLUMN o MODIFY permite cambiar las características de una columna, como el tipo de dato o su tamaño. Por ejemplo:
+        p El comando ALTER COLUMN o MODIFY permite cambiar las características de una columna, como el tipo de dato o su tamaño. Por ejemplo:
         .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-2
                 .px-3.py-2(style="background-color: #311a6a; display: flex; align-items: center;")
                   .d-flex
@@ -294,7 +301,7 @@
                       h4.text-white ALTER TABLE Usuario
                       h4.text-white ALTER COLUMN nombre VARCHAR(150);
       .row(titulo="Eliminar una columna")
-        p el comando DROP COLUMN permite eliminar una columna de una tabla cuando ya no es necesaria. Por ejemplo:
+        p El comando DROP COLUMN permite eliminar una columna de una tabla cuando ya no es necesaria. Por ejemplo:
         .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-2
                 .px-3.py-2(style="background-color: #311a6a; display: flex; align-items: center;")
                   .d-flex
@@ -322,7 +329,7 @@
           img(src='@/assets/curso/temas/tema4/Image 82.svg' alt='AvatarTop')
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mb-4
       .row(titulo="Inserción de registros")
-        p la inserción de datos se realiza mediante el comando INSERT, el cual permite agregar nuevos registros a una tabla. Por ejemplo:
+        p La inserción de datos se realiza mediante el comando INSERT, el cual permite agregar nuevos registros a una tabla. Por ejemplo:
         .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-2
                 .px-3.py-2(style="background-color: #311a6a; display: flex; align-items: center;")
                   .d-flex
@@ -336,8 +343,8 @@
                       h4.text-white VALUES (1, 'Ana López', 'ana@correo.com');
         p En este caso se agrega un nuevo registro a la tabla Usuario, donde se almacenan los datos correspondientes a un usuario del sistema.
       .row(titulo="Actualización de registros")
-        p la actualización de datos se realiza mediante el comando UPDATE, el cual permite modificar la información de uno o varios registros existentes. Por ejemplo:
-        .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-2
+        p La actualización de datos se realiza mediante el comando UPDATE, el cual permite modificar la información de uno o varios registros existentes. Por ejemplo:
+        .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-4
                 .px-3.py-2(style="background-color: #311a6a; display: flex; align-items: center;")
                   .d-flex
                     .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #68EAE0;")
@@ -351,8 +358,8 @@
                       h4.text-white WHERE id_usuario = 1;
         p En este ejemplo se actualiza el correo electrónico del usuario cuyo identificador es 1.
       .row(titulo="Eliminación de registros")
-        p se realiza mediante el comando DELETE, el cual permite borrar información almacenada en una tabla. Por ejemplo:
-        .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-2
+        p Se realiza mediante el comando DELETE, el cual permite borrar información almacenada en una tabla. Por ejemplo:
+        .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-4
                 .px-3.py-2(style="background-color: #311a6a; display: flex; align-items: center;")
                   .d-flex
                     .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #68EAE0;")
@@ -373,8 +380,8 @@
     p.mb-4 La eliminación de estos elementos debe realizarse con precaución, ya que al ejecutar estos comandos se pierde la información almacenada y la estructura asociada.
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mb-4
       .row(titulo="Eliminación de tablas")
-        p para eliminar una tabla de una base de datos se utiliza el comando DROP TABLE. Este comando elimina tanto la estructura de la tabla como todos los registros que contiene. Por ejemplo:
-        .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-2
+        p Para eliminar una tabla de una base de datos se utiliza el comando DROP TABLE. Este comando elimina tanto la estructura de la tabla como todos los registros que contiene. Por ejemplo:
+        .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-4
                 .px-3.py-2(style="background-color: #311a6a; display: flex; align-items: center;")
                   .d-flex
                     .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #68EAE0;")
@@ -386,17 +393,17 @@
                       h4.text-white DROP TABLE Usuario;
         p En este caso se elimina completamente la tabla Usuario, junto con todos los datos almacenados en ella.
       .row(titulo="Eliminación de bases de datos")
-        p cuando se requiere eliminar una base de datos completa, se utiliza el comando DROP DATABASE. Esta instrucción elimina la base de datos y todas las tablas y estructuras que contiene. Por ejemplo:
-        .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-2
-                .px-3.py-2(style="background-color: #311a6a; display: flex; align-items: center;")
-                  .d-flex
-                    .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #68EAE0;")
-                    .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #68C6EA;")
-                    .circle(style="width: 12px; height: 12px; border-radius: 50%; background-color: #FFB758;")
-                .p-4(style="background-color: #0d0d2b;")
-                  .row.align-items-center
-                    .col-md-5.mb-3.mb-md-0
-                      h4.text-white DROP DATABASE Biblioteca;
+        p Cuando se requiere eliminar una base de datos completa, se utiliza el comando DROP DATABASE. Esta instrucción elimina la base de datos y todas las tablas y estructuras que contiene. Por ejemplo:
+        .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-4
+          .px-3.py-2(style="background-color: #311a6a; display: flex; align-items: center;")
+            .d-flex
+              .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #68EAE0;")
+              .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #68C6EA;")
+              .circle(style="width: 12px; height: 12px; border-radius: 50%; background-color: #FFB758;")
+          .p-4(style="background-color: #0d0d2b;")
+            .row.align-items-center
+              .col-md-5.mb-3.mb-md-0
+                h4.text-white DROP DATABASE Biblioteca;
         p.mb-0 En este ejemplo se elimina la base de datos llamada Biblioteca, incluyendo todas las tablas y registros asociados.
     p.mb-0 La eliminación de tablas y bases de datos forma parte de las tareas de mantenimiento y administración de los sistemas de información. Sin embargo, estas acciones deben ejecutarse con cuidado para evitar la pérdida accidental de datos importantes.  
 </template>

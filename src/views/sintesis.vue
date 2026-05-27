@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(icono="fas fa-sitemap" titulo="S?ntesis")
+  BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     p Las bases de datos surgen como una solución tecnológica para organizar y gestionar grandes volúmenes de información que anteriormente se almacenaban en registros físicos. A través de diferentes modelos y procesos de diseño, los datos se estructuran en tablas y relaciones que permiten garantizar su organización e integridad dentro de los sistemas gestores de bases de datos. Posteriormente, mediante lenguajes especializados, es posible crear, modificar, consultar y eliminar información según las necesidades de cada aplicación. En la actualidad, las bases de datos no solo almacenan información, sino que también permiten procesarla, analizarla y distribuirla en sistemas más complejos, incluyendo arquitecturas distribuidas y tecnologías NoSQL, lo que facilita la gestión eficiente de los datos y su uso para la toma de decisiones en diversos entornos digitales.
     .row.justify-content-center

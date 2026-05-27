@@ -30,20 +30,20 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema3/img2.svg', alt='Texto que describa la imagen')
-        p Las entidades representan objetos o elementos del mundo real sobre los cuales se desea almacenar información. En el modelo relacional, cada entidad se transforma en una tabla dentro de la base de datos. Por ejemplo, en un sistema de biblioteca pueden existir entidades como Usuario, Libro o Préstamo, que posteriormente se representan como tablas que almacenan los registros correspondientes.
+              img(src='@/assets/curso/temas/tema3/img3.svg', alt='Texto que describa la imagen')
+        p Las #[b entidades] representan objetos o elementos del mundo real sobre los cuales se desea almacenar información. En el modelo relacional, cada entidad se transforma en una tabla dentro de la base de datos. Por ejemplo, en un sistema de biblioteca pueden existir entidades como Usuario, Libro o Préstamo, que posteriormente se representan como tablas que almacenan los registros correspondientes.
       .col-md.tarjeta.bgf6.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema3/img3.svg', alt='Texto que describa la imagen')
-        p Los atributos corresponden a las características o propiedades que describen a una entidad. Dentro del modelo relacional, los atributos se representan como columnas de una tabla. Cada columna almacena un tipo específico de información, como el nombre de un usuario, el título de un libro o la fecha de un préstamo.
+              img(src='@/assets/curso/temas/tema3/img4.svg', alt='Texto que describa la imagen')
+        p Los #[b atributos] corresponden a las características o propiedades que describen a una entidad. Dentro del modelo relacional, los atributos se representan como columnas de una tabla. Cada columna almacena un tipo específico de información, como el nombre de un usuario, el título de un libro o la fecha de un préstamo.
       .col-md.tarjeta.bgf1.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema3/img4.svg', alt='Texto que describa la imagen')
-        p Las relaciones describen la forma en que las entidades se vinculan entre sí. En el modelo relacional, estas relaciones se implementan mediante claves que permiten conectar las tablas, garantizando que la información mantenga coherencia entre los distintos elementos del sistema.
+              img(src='@/assets/curso/temas/tema3/img5.svg', alt='Texto que describa la imagen')
+        p Las #[b relaciones] describen la forma en que las entidades se vinculan entre sí. En el modelo relacional, estas relaciones se implementan mediante claves que permiten conectar las tablas, garantizando que la información mantenga coherencia entre los distintos elementos del sistema.
     p.mb-0 Comprender la relación entre entidades, atributos y relaciones dentro del modelo relacional permite estructurar adecuadamente las tablas de la base de datos y asegurar que los datos se encuentren organizados de forma clara, consistente y fácil de consultar.    
     Separador
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
@@ -78,7 +78,7 @@
                   th Llave primaria
                   th Llave foránea
               tbody
-                tr
+                tr(style="background-color: #F3F9FF;")
                   td Usuario.
                   td id_usuario, nombre, correo.
                   td id_usuario (PK).
@@ -88,17 +88,17 @@
                   td id_libro, titulo, autor
                   td id_libro (PK).
                   td —
-                tr
+                tr(style="background-color: #F3F9FF;")
                   td Prestamo
                   td id_prestamo, fecha_prestamo, id_usuario, id_libro
                   td id_prestamo (PK).
                   td id_usuario (FK), id_libro (FK).
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
-        .row.align-items-center.mb-4.bgf1.p-4
+        .row.align-items-center.mb-4.bgf1
           .col-lg-auto.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/tema3/img8.svg', style="width:100px", alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema3/img8.svg', style="width: 120px;margin-left:-12%", alt='Texto que describa la imagen')
           .col-lg-10
             p.mb-0 En este ejemplo, cada tabla posee una llave primaria (#[b PK]) que permite identificar de manera única cada registro. La tabla Préstamo incluye además llaves foráneas (#[b FK]) que hacen referencia a las llaves primarias de las tablas Usuario y Libro, permitiendo establecer la relación entre los datos.
     p.mb-0 De esta forma, el sistema puede registrar qué usuario realizó un préstamo y qué libro fue prestado, manteniendo la información organizada y relacionada dentro de la base de datos.    
@@ -112,17 +112,17 @@
           .row.justify-content-center.align-items-center
             .col-md-6.mb-4.mb-md-0.order-2.order-lg-1
               h4 Integridad de identidad
-              p establece que cada registro dentro de una tabla debe ser identificado de manera única mediante una llave primaria (Primary Key o PK). Esto significa que el valor de la llave primaria no puede repetirse ni quedar vacío, ya que su función es distinguir cada registro de los demás.
-              p Por ejemplo, en una tabla llamada Usuario, el atributo id_usuario puede utilizarse como llave primaria. De esta manera, cada usuario tendrá un identificador único dentro de la base de datos, lo que permite evitar duplicidad de registros y facilita la organización de la información.
+              p Establece que cada registro dentro de una tabla debe ser identificado de manera única mediante una #[b llave primaria (Primary Key o PK)]. Esto significa que el valor de la llave primaria no puede repetirse ni quedar vacío, ya que su función es distinguir cada registro de los demás.
+              p Por ejemplo, en una tabla llamada Usuario, el atributo #[b id_usuario] puede utilizarse como llave primaria. De esta manera, cada usuario tendrá un identificador único dentro de la base de datos, lo que permite evitar duplicidad de registros y facilita la organización de la información.
             .col-md-6.mb-4.mb-lg-0.order-1.order-lg-2
               figure
                 img(src='@/assets/curso/temas/tema3/img9.png', alt='Gráfico ilustrativo de uso de programa')
           .row.justify-content-center.align-items-center
             .col-md-6.mb-4.mb-md-0.order-2.order-lg-1
               h4 Integridad referencia
-              p garantiza la coherencia de las relaciones entre las tablas de una base de datos. Este principio se cumple mediante el uso de llaves foráneas (Foreign Key o FK), las cuales permiten conectar registros de diferentes tablas.
+              p Garantiza la coherencia de las relaciones entre las tablas de una base de datos. Este principio se cumple mediante el uso de #[b llaves foráneas (Foreign Key o FK)], las cuales permiten conectar registros de diferentes tablas.
               p Una llave foránea es un atributo que hace referencia a la llave primaria de otra tabla. Su función es asegurar que los valores registrados correspondan a datos que realmente existen en la tabla relacionada.
-              p Por ejemplo, en una tabla Prestamo pueden existir los atributos id_usuario e id_libro como llaves foráneas. Estos valores deben corresponder a usuarios y libros previamente registrados en las tablas Usuario y Libro. De esta forma se evita registrar préstamos asociados a usuarios o libros inexistentes.
+              p Por ejemplo, en una tabla #[b Prestamo] pueden existir los atributos #[b id_usuario] e #[b id_libro] como llaves foráneas. Estos valores deben corresponder a usuarios y libros previamente registrados en las tablas Usuario y Libro. De esta forma se evita registrar préstamos asociados a usuarios o libros inexistentes.
             .col-md-6.mb-4.mb-lg-0.order-1.order-lg-2
               figure
                 img(src='@/assets/curso/temas/tema3/img10.png', alt='Gráfico ilustrativo de uso de programa')
@@ -171,7 +171,7 @@
               .col-5
                 img(src="@/assets/curso/temas/tema3/img16.svg", alt="alt").img100.m-auto
             h5.text-center #[b CHECK]
-            p.text-center.mb-0 permite definir una condición que los valores deben cumplir para poder almacenarse en la base de datos.
+            p.text-center.mb-0 Permite definir una condición que los valores deben cumplir para poder almacenarse en la base de datos.
     p.mb-0 La aplicación de estas restricciones fortalece la calidad de la información y facilita la administración de los datos dentro de los sistemas de información. Además, permite mantener la coherencia entre las diferentes tablas y garantizar que los registros cumplan con las reglas definidas en el diseño de la base de datos.          
 </template>
 

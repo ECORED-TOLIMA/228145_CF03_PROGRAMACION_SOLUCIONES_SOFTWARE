@@ -18,7 +18,11 @@
     position: absolute
     top: 66%
     right: 80%
- 
+.banner-principal .tarjeta
+  background-position: left 50% !important
+.banner-principal__row .banner-principal__img
+  width: 655px !important 
+
 .banner-principal__img
   z-index: 1
 
@@ -158,7 +162,7 @@
   
 
 .bloque-texto-gg--inverso 
-  .bloque-texto-gg__img
+  .bloque-texto-gg__img,.bloque-texto-gg__img1
     left: auto
     right: 0
 .bloque-texto-gg__img1 
@@ -259,9 +263,9 @@
   background-image: url("../assets/curso/temas/tema3/imgfondoslyf.png")
   background-repeat: no-repeat
   background-position: center
-  margin-inline: -3rem !important
+  margin-inline: -3.5rem !important
   @media (max-width: $bp-max-sm)
-    margin-inline: -1.5rem !important 
+    margin-inline: -1.5rem !important
 
 .titulo2
   background-color:#FFE2BC
@@ -292,7 +296,6 @@
   height: 45px
   margin-right: 10px
   margin-left: -10px
-
 
 .tarjeta--azul,
   background-color: #C9E8F7 !important
@@ -350,6 +353,8 @@
     margin-inline: -1.5rem !important
 
 //// Tarjetas --------------------------------------
+.img80
+  width: 80px
 .crd
   &.brd--rad
     border-radius: 20px 
@@ -372,9 +377,6 @@
     border-radius: 20px
 
 .bottomCircle
-  img
-    max-width: 35%
-    margin: 8.5% 32.5%
 
   position: relative
   & > *
@@ -385,8 +387,8 @@
     top: 50%
     left: 50%
     transform: translate(-50%,-50%)
-    width: 130px
-    height: 130px
+    width: 100px
+    height: 100px
     background-color: #AE0000
     border-radius: 999px
   @media (max-width: 1000px)
@@ -495,6 +497,7 @@ table th, table td
   color: black
 .tabs-c
   background-color: #CFE8FF
+  background-image: url("../assets/curso/temas/tema2/imgfondopesta.png")
 
 .acordion__accion__btn--a, .acordion__accion__btn--b
   background-color: #9C2424
@@ -510,8 +513,11 @@ table th, table td
       transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
       transform: translateY(0)
       background-color: #68EAE0
-    h5
-      color: black !important
+    .ubicar 
+      h5
+        color: black !important
+      .acordion__accion.acordion__accion__btn--b.h3.mb-0
+        display: none
 
   .crd_hover_txt--body
     position: absolute
@@ -527,3 +533,68 @@ table th, table td
     .crd_hover_txt--body
       p
         font-size: 0.85em
+
+///////// Card hover --------------------------------------
+//- tarjeta de deslizamiento arriba abajo 
+.tarjetas-up
+  overflow: hidden
+  position: relative
+  &_card
+    transition: bottom .3s ease-in-out
+    position: absolute
+    border-radius: 5px
+    width: 100%
+    height: 100%
+    left: 0
+    bottom: -82%
+    @media (max-width: $bp-max-lg)
+      bottom: -85%
+    @media (max-width: $bp-max-md)
+      bottom: -87%
+    @media (max-width: $bp-max-sm)
+      bottom: -85%
+    i:last-child
+      display: none
+  &:hover
+    .tarjetas-up_card
+      bottom: -40%
+      @media (max-width: $bp-max-xl)
+        bottom: -20%
+      @media (max-width: $bp-max-lg)
+        bottom: -30%
+      @media (max-width: $bp-max-md)
+        bottom: -47%
+      @media (max-width: $bp-max-sm)
+        bottom: -38%
+      @media (max-width: $bp-max-xs)
+        bottom: -20%
+    i:first-child
+      display: none
+    i:last-child
+      display: block
+
+.ubicar 
+  width: 100%
+  h5
+    text-align: center
+    margin-top: 5px
+  .acordion__accion.acordion__accion__btn--b.h3.mb-0
+    margin-top: -72px 
+    margin-left: 75px
+    
+.tit-tarj
+  margin-top: 2px
+  height: 60px
+
+
+.tarjeta-avatar-b
+  padding-left: 7% !important
+  p
+    margin-left: 7%
+  
+.tarjeta-avatar-b__img
+  display: flex
+  justify-content: center
+  img
+    width: 60% !important
+    
