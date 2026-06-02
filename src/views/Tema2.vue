@@ -207,7 +207,7 @@
               img(src='@/assets/curso/temas/tema2/img16.png' style="margin-left:-12%", alt='AvatarTop')
           .col-lg-8 
             p En este ejemplo se identifican tres entidades principales: Usuario, Libro y Préstamo. Cada una contiene atributos que describen sus características. Además, las entidades se relacionan entre sí para representar cómo interactúan los datos dentro del sistema.
-            p.mn-0 Por ejemplo, un usuario realiza un préstamo y cada préstamo corresponde a un libro determinado. De esta manera, el modelo permite visualizar cómo se organizan los datos y cómo se conectan entre sí dentro del sistema. 
+            p.mb-0 Por ejemplo, un usuario realiza un préstamo y cada préstamo corresponde a un libro determinado. De esta manera, el modelo permite visualizar cómo se organizan los datos y cómo se conectan entre sí dentro del sistema. 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .titulo-sexto.color-acento-contenido

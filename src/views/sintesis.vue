@@ -12,7 +12,7 @@
           .anexo__icono
             img(src="@/assets/bullets/icono-pdf.svg")
           .anexo__texto
-            p Anexo. S?ntesis
+            p Anexo. Síntesis
 
 </template>
 

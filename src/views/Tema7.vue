@@ -186,8 +186,12 @@
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema7/img11.png", alt="alt")
-          .crd_hover_txt--body
-            h5.text-center.mb-3 Consistencia (Consistency)
+          .crd_hover_txt--body.crd_hover_txt--body1
+            .tit-tarj.p-3
+              .ubicar
+                .acordion__accion.acordion__accion__btn--b.h3.mb-0
+                  i.fas.fa-angle-up
+                h5.mb-3 Consistencia (#[i Consistency])
             p.mb-0 Todos los nodos del sistema muestran la misma información al mismo tiempo. Cuando se realiza una actualización de datos, cualquier usuario que consulte el sistema obtiene el mismo resultado.
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
@@ -195,8 +199,12 @@
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema7/img12.png", alt="alt")
-          .crd_hover_txt--body
-            h5.text-center.mb-3 Disponibilidad (Availability)
+          .crd_hover_txt--body.crd_hover_txt--body1
+            .tit-tarj.p-3
+              .ubicar
+                .acordion__accion.acordion__accion__btn--b.h3.mb-0
+                  i.fas.fa-angle-up
+                h5.mb-3 Disponibilidad (#[i Availability])
             p.mb-0 El sistema responde a las solicitudes de los usuarios incluso si algunos nodos presentan fallas. Esto significa que el servicio permanece accesible.
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
@@ -204,8 +212,12 @@
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema7/img13.png", alt="alt")
-          .crd_hover_txt--body
-            h5.text-center.mb-3 Tolerancia a particiones (Partition Tolerance)
+          .crd_hover_txt--body.crd_hover_txt--body1
+            .tit-tarj.p-3
+              .ubicar
+                .acordion__accion.acordion__accion__btn--b.h3.mb-0
+                  i.fas.fa-angle-up
+                h5.mb-3 Tolerancia a particiones (#[i Partition Tolerance])
             p.mb-0 El sistema continúa funcionando incluso cuando ocurre una falla de comunicación entre algunos nodos de la red.
     p El Teorema CAP indica que, en presencia de una partición de red, un sistema solo puede garantizar dos de estas tres propiedades al mismo tiempo. Por esta razón, los diseñadores de sistemas deben priorizar cuáles características son más importantes según las necesidades de la aplicación.
     .row.justify-content-center.align-items-center.mb-4

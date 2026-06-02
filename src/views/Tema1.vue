@@ -179,31 +179,31 @@
           .col-5
             img(src='@/assets/curso/temas/tema1/img22.svg' alt='AvatarTop')
         h5.text-center Bases de datos NoSQL
-        p.text-center optimizan el manejo de datos semiestructurados y desestructurados.
+        p.text-center Optimizan el manejo de datos semiestructurados y desestructurados.
       .tarjeta.bgfondo--slyderf.p-4
         .row.justify-content-center.mb-3
           .col-5
             img(src='@/assets/curso/temas/tema1/img22.svg' alt='AvatarTop')
         h5.text-center Automatización y administración inteligente
-        p.text-center incorporan herramientas de inteligencia artificial para optimizar tareas de mantenimiento y rendimiento.
+        p.text-center Incorporan herramientas de inteligencia artificial para optimizar tareas de mantenimiento y rendimiento.
       .tarjeta.bgfondo--slyderf.p-4
         .row.justify-content-center.mb-3
           .col-5
             img(src='@/assets/curso/temas/tema1/img23.svg' alt='AvatarTop')
         h5.text-center Procesamiento en tiempo real
-        p.text-center permite analizar y consultar información de manera inmediata.
+        p.text-center Permite analizar y consultar información de manera inmediata.
       .tarjeta.bgfondo--slyderf.p-4
         .row.justify-content-center.mb-3
           .col-5
             img(src='@/assets/curso/temas/tema1/img24.svg' alt='AvatarTop')
         h5.text-center Seguridad y protección de datos
-        p.text-center fortalecen mecanismos de autenticación, cifrado y control de acceso.
+        p.text-center Fortalecen mecanismos de autenticación, cifrado y control de acceso.
       .tarjeta.bgfondo--slyderf.p-4
         .row.justify-content-center.mb-3
           .col-5
             img(src='@/assets/curso/temas/tema1/img25.svg' alt='AvatarTop')
         h5.text-center Integración con analítica y ciencia de datos
-        p.text-center favorecen el procesamiento de información para la toma de decisiones.
+        p.text-center Favorecen el procesamiento de información para la toma de decisiones.
     p La evolución de las bases de datos demuestra cómo las tecnologías de almacenamiento se adaptan continuamente a las necesidades de las organizaciones y de los entornos digitales modernos, permitiendo gestionar información de manera más eficiente, flexible y segura.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-6
