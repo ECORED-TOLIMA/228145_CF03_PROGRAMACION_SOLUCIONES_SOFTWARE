@@ -554,7 +554,7 @@
           .row(titulo="Segunda forma normal (2FN)")
             p Se alcanza cuando la tabla ya cumple con la primera forma normal y, además, todos los atributos dependen completamente de la clave primaria, evitando dependencias parciales.
           .row(titulo="Tercera forma normal (3FN)")
-            p Se cumple la tabla esta en segunda forma normal y los atributos que no dependen de otros atributos que no sean la clave primaria, eliminando dependencias transitivas.
+            p Se cumple cuando la tabla está en segunda forma normal y los atributos no dependen de otros atributos que no sean la clave primaria, eliminando dependencias transitivas.
     p Para comprender mejor este proceso, se presenta un ejemplo sencillo:
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-12
