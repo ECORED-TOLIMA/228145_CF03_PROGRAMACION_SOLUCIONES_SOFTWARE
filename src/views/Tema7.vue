@@ -233,15 +233,15 @@
       .col-lg-8
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Identificar el tipo de aplicación")
-            p Se analiza si el sistema requiere mayor consistencia de los datos o mayor disponibilidad del servicio
+            p Se analiza si el sistema requiere mayor consistencia de los datos o mayor disponibilidad del servicio.
           .row(titulo="Evaluar los posibles fallos de red")
-            p En los sistemas distribuidos es común que existan interrupciones en la comunicación entre nodos, por lo que la tolerancia a particiones suele ser una propiedad necesaria
+            p En los sistemas distribuidos es común que existan interrupciones en la comunicación entre nodos, por lo que la tolerancia a particiones suele ser una propiedad necesaria.
           .row(titulo="Definir las prioridades del sistema")
             p Dependiendo del tipo de aplicación, se priorizan dos de las tres propiedades del teorema CAP. Entre ella se encuentran:
-            p ° Consistencia y tolerancia a particiones (CP)
-            p ° Disponibilidad y tolerancia a particiones (AP)
+            p ° Consistencia y tolerancia a particiones (CP).
+            p ° Disponibilidad y tolerancia a particiones (AP).
           .row(titulo="Seleccionar la tecnología adecuada")
-            p A partir de estas decisiones se eligen las bases de datos o arquitecturas que mejor se adapten a los requerimientos del sistema
+            p A partir de estas decisiones se eligen las bases de datos o arquitecturas que mejor se adapten a los requerimientos del sistema.
     p De esta manera, el #[b Teorema CAP] se convierte en una herramienta conceptual para comprender el comportamiento de los sistemas distribuidos y orientar el diseño de infraestructuras de datos modernas.     
 </template>
 

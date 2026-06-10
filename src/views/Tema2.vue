@@ -19,21 +19,21 @@
       .col-lg-4
         .bloque-texto-gg.bgf5.mb-4
           .bloque-texto-gg__texto.p-4
-            p.text-bold Diseño conceptual
+            p.text-bold Diseño conceptual.
           .bloque-texto-gg__img(
           :style="{'background-image':`url(${require('@/assets/curso/temas/tema2/img2.svg')})`}"
           )
       .col-lg-4
         .bloque-texto-gg.bgf5.mb-4
           .bloque-texto-gg__texto.p-4
-            p.text-bold Diseño lógico
+            p.text-bold Diseño lógico.
           .bloque-texto-gg__img(
           :style="{'background-image':`url(${require('@/assets/curso/temas/tema2/img3.svg')})`}"
           )
       .col-lg-4
         .bloque-texto-gg.bgf5.mb-4
           .bloque-texto-gg__texto.p-4
-            p.text-bold Diseño físico
+            p.text-bold Diseño físico.
           .bloque-texto-gg__img(
           :style="{'background-image':`url(${require('@/assets/curso/temas/tema2/img4.svg')})`}"
           )
@@ -85,7 +85,7 @@
       .col-lg-7
         .p-4.bgf3
               p.text-white Ejemplo de diseño conceptual:
-              p.text-white.mb-0 En un sistema de gestión de ventas se pueden identificar las siguientes entidades:
+              p.text-white En un sistema de gestión de ventas se pueden identificar las siguientes entidades:
               .tarjeta.mb-2
                 ul.lista-ul.mb-0
                   li
@@ -99,7 +99,7 @@
                   li
                     i.lista-ul__vineta(style="color: #FFB758;")
                     p.mb-0.text-white Producto.
-              p.text-white.mb-0 Las relaciones entre estas entidades pueden representarse de la siguiente manera:
+              p.text-white Las relaciones entre estas entidades pueden representarse de la siguiente manera:
               .tarjeta
                 ul.lista-ul.mb-0
                   li
@@ -306,7 +306,7 @@
                 tr
                   td Paso 2. Convertir la entidad en tabla.
                   td La entidad se transforma en una tabla dentro del modelo lógico.
-                  td Tabla: Aprendiz
+                  td Tabla: Aprendiz.
                 tr(style="background-color: #F3F9FF;")
                   td Paso 3. Definir columnas.
                   td Cada atributo de la entidad se convierte en una columna de la tabla.
@@ -455,12 +455,12 @@
             figure
               img(src="@/assets/curso/temas/tema2/img30.png", alt="alt")
           .crd_hover_txt--body
-            .tit-tarj.p-3
+            .tit-tarj.p-3.mb-4
               .ubicar
                 .acordion__accion.acordion__accion__btn--b.h3.mb-0
                   i.fas.fa-angle-up
                 h5.mb-3 Estructura de almacenamiento
-            p.mb-0 Organizacion fisica de los archivos o bloques donde se guardara la información
+            p.mb-0 Organizacion fisica de los archivos o bloques donde se guardara la información.
     p El diseño físico también busca optimizar el desempeño del sistema, permitiendo que las consultas se ejecuten de forma rápida y eficiente, especialmente cuando la base de datos maneja grandes volúmenes de información.
     p A continuación, se presenta un ejemplo sencillo de cómo se define la estructura física de una tabla dentro de una base de datos.
     .row.justify-content-center.align-items-center.mb-3
@@ -550,10 +550,10 @@
       .col-lg-8
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Primera forma normal (1FN)")
-            p Se cumple cuando cada campo de la tabla contiene valores atomicos, es decir, un solo valor por celda, y no existen grupos repetidos de datos.
-          .row(titulo="Segunda forma normal (1FN)")
-            p Se alcanza cuando la tabla ya cumple con la primera forma normal, y demas, todos los atributos dependen completamente de la clave primaria, evitando dependencias parciales.
-          .row(titulo="Tercera forma normal (1FN)")
+            p Se cumple cuando cada campo de la tabla contiene valores atómicos, es decir, un solo valor por celda, y no existen grupos repetidos de datos.
+          .row(titulo="Segunda forma normal (2FN)")
+            p Se alcanza cuando la tabla ya cumple con la primera forma normal y, además, todos los atributos dependen completamente de la clave primaria, evitando dependencias parciales.
+          .row(titulo="Tercera forma normal (3FN)")
             p Se cumple la tabla esta en segunda forma normal y los atributos que no dependen de otros atributos que no sean la clave primaria, eliminando dependencias transitivas.
     p Para comprender mejor este proceso, se presenta un ejemplo sencillo:
     .row.justify-content-center.align-items-center.mb-3
@@ -574,6 +574,7 @@
                 tr(style="background-color: #F3F9FF;")
                   th id_usuario, nombre_usuario, libro, autor_libro.
                   td Un mismo usuario puede tener varios libros, lo que genera repetición de datos.
+    p.mb-4 Después de aplicar la normalización, la información puede organizarse de la siguiente manera:
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-12
         .titulo-sexto.color-acento-contenido

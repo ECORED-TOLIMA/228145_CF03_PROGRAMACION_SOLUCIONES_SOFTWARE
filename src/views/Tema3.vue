@@ -54,12 +54,12 @@
         img(src='@/assets/curso/temas/tema3/img6.png', alt='Texto que describa la imagen')
         .p-4.bgf11
           h5 La llave primaria (Primary Key - PK)
-          p Es el atributo o conjunto de atributos que identifica de forma unica cada registro dentro de una tabla. Sus valores no pueden repetirse ni ser nulos. Por ejemplo, en una tabla llamada Usuario, el campo id_usuario puede funcionar como lleve primaria. permitiendo identificar de manera unica a cada usuario registrado.
+          p Es el atributo o conjunto de atributos que identifica de forma única cada registro dentro de una tabla. Sus valores no pueden repetirse ni ser nulos. Por ejemplo, en una tabla llamada #[b Usuario], el campo id_usuario puede funcionar como llave primaria, permitiendo identificar de manera única a cada usuario registrado.
       .col-lg-6
         img(src='@/assets/curso/temas/tema3/img7.png', alt='Texto que describa la imagen')
         .p-4.bgf11
-          h5 Llave foranea (Foreign Key - FK)
-          p Es un atributo que establece una relacion entre dos tablas. Este campo hace referencia a la llave primaria de otra tabla, permitiendo conectar la información almacenada en diferentes entidades. Por ejemplo, en una tabla llamado Prestamo, el campo id_usuario puede funcionar como llave foranea que hace referencia al id_usuario de la tabla Usuario.
+          h5 Llave foránea (Foreign Key - FK)
+          p Es un atributo que establece una relación entre dos tablas. Este campo hace referencia a la llave primaria de otra tabla, permitiendo conectar la información almacenada en diferentes entidades. Por ejemplo, en una tabla llamada #[b Prestamo], el campo id_usuario puede funcionar como llave foránea que hace referencia al id_usuario de la tabla Usuario.
     p El uso de estas llaves permite mantener la relación entre las tablas y facilita la consulta, actualización y organización de la información dentro de una base de datos relacional. Para comprender mejor cómo funcionan las llaves primarias y foráneas dentro de un modelo relacional, a continuación, se presenta un ejemplo sencillo.
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-12
@@ -79,20 +79,20 @@
                   th Llave foránea
               tbody
                 tr(style="background-color: #F3F9FF;")
-                  td Usuario.
+                  th Usuario
                   td id_usuario, nombre, correo.
-                  td id_usuario (PK).
+                  td id_usuario (PK)
                   td —
                 tr     
-                  td Libro
+                  th Libro
                   td id_libro, titulo, autor
-                  td id_libro (PK).
+                  td id_libro (PK)
                   td —
                 tr(style="background-color: #F3F9FF;")
-                  td Prestamo
+                  th Prestamo
                   td id_prestamo, fecha_prestamo, id_usuario, id_libro
-                  td id_prestamo (PK).
-                  td id_usuario (FK), id_libro (FK).
+                  td id_prestamo (PK)
+                  td id_usuario (FK), id_libro (FK)
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .row.align-items-center.mb-4.bgf1
@@ -116,7 +116,7 @@
               p Por ejemplo, en una tabla llamada Usuario, el atributo #[b id_usuario] puede utilizarse como llave primaria. De esta manera, cada usuario tendrá un identificador único dentro de la base de datos, lo que permite evitar duplicidad de registros y facilita la organización de la información.
             .col-md-6.mb-4.mb-lg-0.order-1.order-lg-2
               figure
-                img(src='@/assets/curso/temas/tema3/img9.png', alt='Gráfico ilustrativo de uso de programa')
+                img(src='@/assets/curso/temas/tema3/img9.png',style="width: 95%;", alt='Gráfico ilustrativo de uso de programa')
           .row.justify-content-center.align-items-center
             .col-md-6.mb-4.mb-md-0.order-2.order-lg-1
               h4 Integridad referencia

@@ -60,7 +60,7 @@
       h2 6.3 Principios ACID y gestión de transacciones
     p Los principios ACID constituyen un conjunto de propiedades que garantizan la fiabilidad y consistencia de las transacciones en los sistemas de bases de datos. Una transacción corresponde a una secuencia de operaciones que se ejecutan como una única unidad de trabajo, asegurando que los datos se mantengan correctos incluso ante fallos del sistema, errores o interrupciones.
     p El término ACID proviene de cuatro propiedades fundamentales que permiten mantener la integridad de la información durante la ejecución de las transacciones:
-    .row.justify-content-center
+    .row.justify-content-center.mb-4
       .col-xl-3.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
@@ -112,7 +112,7 @@
                   i.fas.fa-angle-up
                 h5.mb-3 Durabilidad
             p.mb-0 Establece que, una vez confirmada una transacción, los cambios realizados se almacenan de manera permanente, incluso si ocurre una falla en el sistema.
-
+    p.mb-0 La gestión de transacciones es el mecanismo mediante el cual el sistema gestor de bases de datos controla la ejecución de estas operaciones, incluyendo procesos como el inicio, la confirmación o la cancelación de una transacción. De esta forma, se garantiza la integridad de los datos y el funcionamiento confiable de las aplicaciones que dependen del manejo de la información.
     Separador
     #t_6_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 6.4 Tipos de almacenamiento de datos

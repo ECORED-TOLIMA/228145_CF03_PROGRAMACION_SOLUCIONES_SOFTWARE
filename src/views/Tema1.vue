@@ -346,7 +346,7 @@
           .row.justify-content-center.align-items-center.mb-4
             .col-lg-6
               .tarjeta.bgf3.p-4
-                p.text-white Características de los datos semiestructurados:
+                p.text-white Ejemplos de datos desestructurados:
                 ul.lista-ul
                   li
                     i.fas.fa-computer(style="color: #FFB758;")
@@ -373,10 +373,10 @@
                     | Imágenes.
                   li.mb-0
                     i.lista-ul__vineta
-                    | Videos
+                    | Videos.
                   li.mb-0
                     i.lista-ul__vineta
-                    | Audios
+                    | Audios.
                   li.mb-0
                     i.lista-ul__vineta
                     | Publicaciones en redes sociales.
@@ -552,7 +552,7 @@
             .row.justify-content-center.mb-3
               .col-8
                 img(src="@/assets/curso/temas/tema1/img39.svg", alt="alt").img100.m-auto
-            p.text-center.mb-0 Tipos de bases de datos NoSQL
+            p.text-center.mb-0 Tipos de bases de datos NoSQL.
           .tarjeta.tarjeta--slyder.p-4
             .row.justify-content-center.mb-3
               .col-8

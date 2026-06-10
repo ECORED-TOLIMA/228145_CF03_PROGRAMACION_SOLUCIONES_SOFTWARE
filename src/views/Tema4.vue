@@ -81,7 +81,7 @@
                   th Función
               tbody
                 tr(style="background-color: #F3F9FF;")
-                  th CREATE
+                  td CREATE
                   td Permite crear bases de datos, tablas u otros objetos.
                 tr
                   td ALTER
@@ -167,7 +167,7 @@
                   th Función
               tbody
                 tr(style="background-color: #F3F9FF;")
-                  th INSERT
+                  td INSERT
                   td Permite agregar nuevos registros a una tabla.
                 tr
                   td SELECT
@@ -275,7 +275,7 @@
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mb-4
       .row(titulo="Agregar una nueva columna")
         p El comando ADD permite incorporar un nuevo atributo a una tabla. Por ejemplo:
-        .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-2
+        .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-4
                 .px-3.py-2(style="background-color: #311a6a; display: flex; align-items: center;")
                   .d-flex
                     .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #68EAE0;")
@@ -286,10 +286,10 @@
                     .col-md-5.mb-3.mb-md-0
                       h4.text-white ALTER TABLE Usuario
                       h4.text-white ADD telefono VARCHAR(20);
-        p En este caso se agrega la columna telefono a la tabla Usuario, permitiendo registrar un número de contacto para cada usuario.
+        p En este caso se agrega la columna #[b telefono] a la tabla #[b Usuario], permitiendo registrar un número de contacto para cada usuario.
       .row(titulo="Modificar una columna existente")
         p El comando ALTER COLUMN o MODIFY permite cambiar las características de una columna, como el tipo de dato o su tamaño. Por ejemplo:
-        .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-2
+        .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-4
                 .px-3.py-2(style="background-color: #311a6a; display: flex; align-items: center;")
                   .d-flex
                     .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #68EAE0;")
@@ -300,9 +300,10 @@
                     .col-md-5.mb-3.mb-md-0
                       h4.text-white ALTER TABLE Usuario
                       h4.text-white ALTER COLUMN nombre VARCHAR(150);
+        p.mb-0 En este ejemplo se modifica la longitud del campo nombre, ampliando su capacidad para almacenar más caracteres.
       .row(titulo="Eliminar una columna")
         p El comando DROP COLUMN permite eliminar una columna de una tabla cuando ya no es necesaria. Por ejemplo:
-        .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-2
+        .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-4
                 .px-3.py-2(style="background-color: #311a6a; display: flex; align-items: center;")
                   .d-flex
                     .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #68EAE0;")
@@ -313,7 +314,7 @@
                     .col-md-5.mb-3.mb-md-0
                       h4.text-white ALTER TABLE Usuario
                       h4.text-white DROP COLUMN telefono;
-        p.mb-0 Esta instrucción elimina la columna telefono de la tabla Usuario.
+        p.mb-0 Esta instrucción elimina la columna #[b telefono] de la tabla #[b Usuario].
     p.mb-0 La modificación de estructuras de tablas y columnas permite adaptar la base de datos a las necesidades cambiantes de los sistemas de información, manteniendo la organización y consistencia de los datos almacenados.    
     Separador
     #t_4_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")

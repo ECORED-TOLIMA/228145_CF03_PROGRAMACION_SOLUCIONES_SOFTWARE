@@ -349,13 +349,13 @@ export default {
   referencias: [
     {
       referencia:
-        'Chen, P. P. (1976). The entity-relationship model: Toward a unified view of data. ACM Transactions on Database Systems, 1(1), 9–36. https://doi.org/10.1145/320434.320440',
-      link: '',
+        'Chen, P. P. (1976). The entity-relationship model: Toward a unified view of data. ACM Transactions on Database Systems, 1(1), 9–36. ',
+      link: 'https://doi.org/10.1145/320434.320440',
     },
     {
       referencia:
-        'Codd, E. F. (1970). A relational model of data for large shared data banks. Communications of the ACM, 13(6), 377–387. https://doi.org/10.1145/362384.362685',
-      link: '',
+        'Codd, E. F. (1970). A relational model of data for large shared data banks. Communications of the ACM, 13(6), 377–387. ',
+      link: 'https://doi.org/10.1145/362384.362685',
     },
     {
       referencia:
@@ -374,13 +374,13 @@ export default {
     },
     {
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2023). Bases de datos NoSQL. YouTube. https://www.youtube.com/watch?v=M-Iw1awJ1NU',
-      link: '',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2023). Bases de datos NoSQL. YouTube. ',
+      link: 'https://www.youtube.com/watch?v=M-Iw1awJ1NU',
     },
     {
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2024). Construcción de un modelo entidad relación. YouTube. https://www.youtube.com/watch?v=t7KZFiCstwI',
-      link: '',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2024). Construcción de un modelo entidad relación. YouTube. ',
+      link: 'https://www.youtube.com/watch?v=t7KZFiCstwI',
     },
     {
       referencia:
