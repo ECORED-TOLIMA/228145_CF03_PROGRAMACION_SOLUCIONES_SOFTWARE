@@ -63,7 +63,8 @@
             figure
               img(src="@/assets/curso/temas/tema2/img6.svg", alt="alt").img80.m-auto
           h5.text-center Entidades
-          p.text-center.mb-0 Representa objetivos o conceptos del mundo real sobre las cuales se desea almacenar información, como por ejemplo cliente, productos, pedidos o empleados.
+          p.text-center.mb-5 Representa objetivos o conceptos del mundo real sobre las cuales se desea almacenar información, como por ejemplo cliente, productos, pedidos o empleados.
+          br
       .col-lg-4.mb-4.mb-lg-0
         .crd.crd--grayGrad(data-aos="flip-left")
           .bottomCircle.d-none.d-lg-block.mb-5
@@ -416,11 +417,11 @@
             figure
               img(src="@/assets/curso/temas/tema2/img27.png", alt="alt")
           .crd_hover_txt--body
-            .tit-tarj.p-3
+            .tit-tarj.p-3.mb-4
               .ubicar
                 .acordion__accion.acordion__accion__btn--b.h3.mb-0
                   i.fas.fa-angle-up
-                h5.mb-3 Tipos de datos
+                h5 Tipos de datos
             p.mb-0 Especifican el formato en que se almacenara cada dato dentro de una tabla, por ejemplo, numeros, texto o fechas.
 
       .col-xl-3.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
@@ -429,11 +430,11 @@
             figure
               img(src="@/assets/curso/temas/tema2/img28.png", alt="alt")
           .crd_hover_txt--body
-            .tit-tarj.p-3
+            .tit-tarj.p-3.mb-4
               .ubicar
                 .acordion__accion.acordion__accion__btn--b.h3.mb-0
                   i.fas.fa-angle-up
-                h5.mb-3 Índices
+                h5 Índices
             p.mb-0 Estructura que permiten acelerar las consultas y mejorar el rendimiento de la base de datos.
 
       .col-xl-3.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
@@ -442,11 +443,11 @@
             figure
               img(src="@/assets/curso/temas/tema2/img29.png", alt="alt")
           .crd_hover_txt--body
-            .tit-tarj.p-3
+            .tit-tarj.p-3.mb-4
               .ubicar
                 .acordion__accion.acordion__accion__btn--b.h3.mb-0
                   i.fas.fa-angle-up
-                h5.mb-3 Restricciones de integridad
+                h5 Restricciones de integridad
             p.mb-0 Reglas que garantizan que los datos almacenados sean validos y coherente.
       
       .col-xl-3.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
@@ -456,10 +457,10 @@
               img(src="@/assets/curso/temas/tema2/img30.png", alt="alt")
           .crd_hover_txt--body
             .tit-tarj.p-3.mb-4
-              .ubicar
-                .acordion__accion.acordion__accion__btn--b.h3.mb-0
-                  i.fas.fa-angle-up
-                h5.mb-3 Estructura de almacenamiento
+                .ubicar
+                  .acordion__accion.acordion__accion__btn--b.h3.mb-0
+                    i.fas.fa-angle-up
+                  h5 Estructura de almacenamiento
             p.mb-0 Organizacion fisica de los archivos o bloques donde se guardara la información.
     p El diseño físico también busca optimizar el desempeño del sistema, permitiendo que las consultas se ejecuten de forma rápida y eficiente, especialmente cuando la base de datos maneja grandes volúmenes de información.
     p A continuación, se presenta un ejemplo sencillo de cómo se define la estructura física de una tabla dentro de una base de datos.
